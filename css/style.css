@@ -2819,3 +2819,130 @@ hr.style-one {
     color: #999999;
 }
 .awesome-feature:hover .awesome-feature-details h5,.awesome-feature:hover .awesome-feature-details p{color:#fff;}
+
+/* ============= Gallery =============*/
+.trip-detail .gallery-list {
+    margin: 0 -15px;
+}
+
+.gallery-list.has-center {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1230px){
+  .gallery-list {
+       margin: 0 23px 0 -7px; 
+  }
+  .gallery-list li {
+    padding: 0 7px;
+    margin-bottom: 14px;
+  }
+}
+
+.gallery-list {
+    margin: 0 -5px 20px;
+}
+
+@media only screen and (min-width: 992px){
+  .trip-detail .gallery-list li {
+      width: 33.3333%;
+  }
+  .trip-detail [class^='col-'], .trip-detail [class*=' col-'] {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .trip-detail .gallery-list li {
+      width: 50%;
+      float: left;
+  }
+}
+
+.trip-detail .gallery-list li {
+    width: auto;
+    margin: 0 auto 30px;
+    float: none;
+    max-width: 400px;
+    padding: 0 15px;
+}
+
+.trip-detail [class^='col-'], .trip-detail [class*=' col-'] {
+    /* margin-bottom: 30px; */
+    margin-bottom: 5px;
+}
+
+.gallery-list li {
+    float: left;
+    width: 33.333%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    clear: right;
+}
+
+.gallery-list a {
+    overflow: hidden;
+    margin: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.trip-detail .gallery-list li img {
+    width: 100%;
+}
+
+.gallery-list.has-center img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: block;
+}
+
+.gallery-list a img {
+    -webkit-transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+}
+
+.youtube-thumb, .img-holder img {
+    height: 270px;
+    width: 100%;
+}
+
+img {
+    vertical-align: top;
+    -webkit-backface-visibility: hidden;
+        max-width: 100%;
+}
+
+.gallery-list.has-center .caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    white-space: nowrap;
+    color: #5c5e62;
+    z-index: 2;
+}
+
+.gallery-list.has-center a:after {
+    background: rgba(255, 255, 255, .9);
+    opacity: 0;
+}
+
+.gallery-list a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: -1px;
+    top: 0;
+    bottom: 0;
+    background: rgba(71, 77, 75, .92);
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
