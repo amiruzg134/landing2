@@ -2837,10 +2837,9 @@ hr.style-one {
     padding: 0 7px;
     margin-bottom: 14px;
   }
-}
-
-.gallery-list {
-    margin: 0 -5px 20px;
+  .gallery-list {
+      margin: 0 -5px 20px;
+  }
 }
 
 @media only screen and (min-width: 992px){
@@ -2850,12 +2849,19 @@ hr.style-one {
   .trip-detail [class^='col-'], .trip-detail [class*=' col-'] {
     margin-bottom: 0;
   }
+  .trip-detail .gallery-list li {
+    width: 33.3333%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .trip-detail .gallery-list li {
       width: 50%;
       float: left;
+  }
+  .trip-detail .gallery-list li {
+    width: 50%;
+    float: left;
   }
 }
 
@@ -2945,4 +2951,49 @@ img {
     opacity: 0;
     -webkit-transition: opacity .2s linear;
     transition: opacity .2s linear;
+}
+
+/*============ Jalur Pendakian =============*/
+/* ============= 13. TEAM AREA ============= */
+.team-single {
+  display: block;
+  position: relative;
+  transition:.3s;
+  overflow:hidden;
+  padding-right: 1px;
+}
+.team-single img {
+  transform: scaleY(1);
+  transition: all 0.7s ease-in-out 0s;
+}
+.team-single:hover img {
+  transform: scale(1.2);
+}
+.team-single:hover {
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
+}
+.team-overlay {
+  background: #ff5f6d none repeat scroll 0 0;
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 22px 0 12px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 100%;
+  opacity:0;
+  visibility:hidden;
+  transition:.3s;
+}
+.team-single:hover .team-overlay{opacity:1;visibility:visible;top:50%;}
+.team-overlay > h5 {
+  color: #fff;
+  font-weight: 600;
+}
+.team-overlay h6 {
+  color: #fff;
 }
