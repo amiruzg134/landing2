@@ -36,7 +36,7 @@
 
                 var subscriber_email = $('#subscriber_email').val();
 
-                $('#subscribe_message').html('Sending...');
+                $('#subscribe_message').html('....');
 
                 $.ajax({
                     type: 'post',
