@@ -21,6 +21,14 @@
     .banner-one__moc{
         display: none;
     }
+
+    .site-header.header-one .header-navigation .container .right-side-box {
+        display: none;
+    }
+
+    .site-header.header-one .header-navigation .container .menu-toggler {
+        float: right;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -399,6 +407,7 @@
         -o-transform: scale(.7);
         transform: scale(.7);
     }
+
 }
 
 @media(max-width: 991px) {
@@ -412,7 +421,7 @@
     }
 
     .banner-one {
-        padding-top: 185px;
+        padding-top: 300px;
     }
 
     .cta-three {
@@ -588,6 +597,10 @@
     }
     .cta-two__feature-single {
         margin-top: 30px;
+    }
+
+    .team-single img{
+        width: 400px
     }
 }
 

@@ -2820,96 +2820,195 @@ hr.style-one {
 }
 .awesome-feature:hover .awesome-feature-details h5,.awesome-feature:hover .awesome-feature-details p{color:#fff;}
 
-/* ============= Gallery =============*/
-.trip-detail .gallery-list {
-    margin: 0 -15px;
+/*------------------------------------------------------------------
+8. Gallery list / .gallery-list
+-------------------------------------------------------------------*/
+
+/* gallery list styles */
+
+.gallery-list {
+  padding: 0
 }
 
 .gallery-list.has-center {
-    text-align: center;
+  text-align: center;
 }
 
-@media only screen and (min-width: 1230px){
-  .gallery-list {
-       margin: 0 23px 0 -7px; 
-  }
-  .gallery-list li {
-    padding: 0 7px;
-    margin-bottom: 14px;
-  }
-  .gallery-list {
-      margin: 0 -5px 20px;
-  }
+.gallery-list.has-center .caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  white-space: nowrap;
+  color: #5c5e62;
+  z-index: 2;
 }
 
-@media only screen and (min-width: 992px){
-  .trip-detail .gallery-list li {
-      width: 33.3333%;
-  }
-  .trip-detail [class^='col-'], .trip-detail [class*=' col-'] {
-    margin-bottom: 0;
-  }
-  .trip-detail .gallery-list li {
-    width: 33.3333%;
-  }
+.gallery-list.has-center .caption:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  top: 10px;
+  border: 1px solid #5c5e62;
+  z-index: 8;
 }
 
-@media only screen and (min-width: 768px) {
-  .trip-detail .gallery-list li {
-      width: 50%;
-      float: left;
-  }
-  .trip-detail .gallery-list li {
-    width: 50%;
-    float: left;
-  }
+.gallery-list.has-center .caption:after {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  margin-right: -.25em;
+  height: 100%;
 }
 
-.trip-detail .gallery-list li {
-    width: auto;
-    margin: 0 auto 30px;
-    float: none;
-    max-width: 400px;
-    padding: 0 15px;
+.gallery-list.has-center .caption .centered {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  font-weight: 700;
+  z-index: 9;
 }
 
-.trip-detail [class^='col-'], .trip-detail [class*=' col-'] {
-    /* margin-bottom: 30px; */
-    margin-bottom: 5px;
+.gallery-list.has-center .title {
+  display: block;
+  font-size: 1.286em;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  position: relative;
 }
 
-.gallery-list li {
-    float: left;
-    width: 33.333%;
-    padding: 0 5px;
-    margin-bottom: 10px;
-    position: relative;
-    overflow: hidden;
-    clear: right;
+.gallery-list.has-center .title:after {
+  position: absolute;
+  left: 50%;
+  width: 50px;
+  height: 5px;
+  background: #5c5e62;
+  content: '';
+  bottom: 0;
+  margin-left: -25px;
 }
 
-.gallery-list a {
-    overflow: hidden;
-    margin: 0;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
+.gallery-list.has-center a:after {
+  background: rgba(255, 255, 255, .9);
+  opacity: 0;
 }
 
-.trip-detail .gallery-list li img {
-    width: 100%;
+.gallery-list.has-center a:hover:after,
+.gallery-list.has-center a:hover .caption:before,
+.gallery-list.has-center a:hover .centered {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.gallery-list.has-center a .caption:before,
+.gallery-list.has-center a .centered {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
 }
 
 .gallery-list.has-center img {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+}
+
+.gallery-list .hover {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  z-index: 4;
+  margin: -25px 0 0 -20px;
+}
+
+.gallery-list a {
+  overflow: hidden;
+  margin: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .gallery-list a img {
-    -webkit-transition: -webkit-transform .3s linear;
-    transition: transform .3s linear;
+  -webkit-transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+}
+
+.gallery-list a:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+}
+
+.gallery-list a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  background: rgba(71, 77, 75, .92);
+  opacity: 0;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+
+.gallery-list a:hover:after {
+  opacity: 1;
+}
+
+.gallery-list a:hover .hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.gallery-list li {
+  float: left;
+  width: 33.333%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  clear: right;
+}
+
+.gallery-list .info {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  letter-spacing: 1px;
+  right: 5px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .youtube-thumb, .img-holder img {
@@ -2918,9 +3017,13 @@ hr.style-one {
 }
 
 img {
-    vertical-align: top;
-    -webkit-backface-visibility: hidden;
-        max-width: 100%;
+  vertical-align: top;
+  -webkit-backface-visibility: hidden;
+  max-width: 100%;
+}
+
+.main-logo, .footer-widget__footer-logo img{
+  height: 50px
 }
 
 .gallery-list.has-center .caption {
@@ -2954,21 +3057,24 @@ img {
 }
 
 /*============ Jalur Pendakian =============*/
-/* ============= 13. TEAM AREA ============= */
 .team-single {
   display: block;
   position: relative;
   transition:.3s;
   overflow:hidden;
   padding-right: 1px;
+  margin-bottom: 30px
 }
+
 .team-single img {
   transform: scaleY(1);
   transition: all 0.7s ease-in-out 0s;
 }
+
 .team-single:hover img {
   transform: scale(1.2);
 }
+
 .team-single:hover {
   box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
@@ -2996,4 +3102,31 @@ img {
 }
 .team-overlay h6 {
   color: #fff;
+}
+
+.owl-item img{
+  width: 100px !important
+}
+
+.has-center .col-sm-6{
+  flex: none;
+}
+
+.play-button {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url(../images/TxzC70f.png) no-repeat;
+}
+
+.trip-detail .gallery-list li {
+    width: auto;
+    margin: 0 auto 30px;
+    float: none;
+    max-width: 400px;
+    padding: 0 15px;
 }

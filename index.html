@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
-
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/logos/logos.png" class="main-logo" alt="Awesome Image" />
+                            <img src="images/logos/logos2.png" class="main-logo" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target=".header-one .main-navigation">
                             <span class="fa fa-bars"></span>
@@ -52,7 +53,7 @@
                         </ul>
                     </div><!-- /.navbar-collapse -->
                     <div class="right-side-box">
-                        <a href="#" class="header-one__btn">Kontak</a>
+                        <a href="#kontak" class="header-one__btn">Kontak</a>
                     </div><!-- /.right-side-box -->
                 </div>
                 <!-- /.container -->
@@ -401,110 +402,121 @@
         <section class="pricing-one" id="pricing" style="padding-top: 150px">
             <div class="container trip-detail">
                 <div class="block-title text-center">
-                    <div class="block-title__text"><span>Galeri</span></div><!-- /.block-title__text -->
-                </div><!-- /.block-title -->
-                <div class="row">
-                                            <div class="content-holder content-boxed">
-                            <div role="tabpanel" class="tab-pane" id="tab05">
-                                <ul class="row gallery-list has-center">
-                                    <li class="col-sm-6 col-md-6 col-6 ">
-                                        <a class="fancybox" data-fancybox-group="group" href="images/gallery/img-21.jpeg" title="Caption Goes Here">
-                                            <span class="img-holder">
-                                                <img src="images/gallery/img-21.jpeg" alt="image description">
-                                            </span>
-                                            <span class="caption">
-                                                <span class="centered">
-                                                    <strong class="title">Peta Wisata Tahura Raden Soerjo</strong>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="col-sm-6 col-md-6 col-6 ">
-                                        <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" title="Caption Goes Here">
-                                            <span class="img-holder">
-                                                <img src="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
-                                            </span>
-                                            <span class="caption">
-                                                <span class="centered">
-                                                    <strong class="title">LEAFLET_1</strong>
-                                                    <span class="sub-text">Air Terjun Tretes</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="col-sm-6 col-md-6 col-6">
-                                        <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" title="Caption Goes Here">
-                                            <span class="img-holder">
-                                                <img src="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
-                                            </span>
-                                            <span class="caption">
-                                                <span class="centered">
-                                                    <strong class="title">LEAFLET_2</strong>
-                                                    <span class="sub-text">Air Terjun Tretes</span>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="col-sm-6 col-md-6 col-6">
-                                        <div class="youtube-container">
-                                            <div class="youtube-player" data-id="ekO_IyI70DA" ></div>
-                                        </div>
-                                    </li>
-                                    <li class="col-sm-6 col-md-6 col-6">
-                                        <div class="youtube-container">
-                                            <div class="youtube-player" data-id="8VHcPKwf-t0" ></div>
-                                        </div>
-                                    </li>
-                                    <li class="col-sm-6 col-md-6 col-6">
-                                        <div class="youtube-container">
-                                            <div class="youtube-player" data-id="wMMV8Ui81Dw" ></div>
-                                        </div>
-                                    </li>
-                                </ul>
-                        <a href="#profil" class="banner-one__btn" style="display: table; margin: 0 auto">Tampilkan Semua</a>
-                            </div>
-                        </div>
-                </div><!-- /.row -->
-            </div><!-- /.container -->
+                    <div class="block-title__text"><span>Galeri</span></div>
+                </div>
+                <div class="row tab-container">
+                    <div role="tabpanel" class="tab-pane" id="tab05">
+                        <ul class="row gallery-list has-center">
+                            <li class="col-sm-6 col-md-6 col-6 ">
+                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/img-21.jpeg" data-fancybox="images">
+                                    <span class="img-holder">
+                                        <img src="images/gallery/img-21.jpeg" alt="image description">
+                                    </span>
+                                    <span class="caption">
+                                        <span class="centered">
+                                            <strong class="title">Peta Wisata Tahura Raden Soerjo</strong>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-sm-6 col-md-6 col-6 ">
+                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" data-fancybox="images">
+                                    <span class="img-holder">
+                                        <img src="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
+                                    </span>
+                                    <span class="caption">
+                                        <span class="centered">
+                                            <strong class="title">LEAFLET_1</strong>
+                                            <span class="sub-text">Air Terjun Tretes</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-sm-6 col-md-6 col-6">
+                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" data-fancybox="images">
+                                    <span class="img-holder">
+                                        <img src="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
+                                    </span>
+                                    <span class="caption">
+                                        <span class="centered">
+                                            <strong class="title">LEAFLET_2</strong>
+                                            <span class="sub-text">Air Terjun Tretes</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="col-sm-6 col-md-6 col-6">
+                                <a data-fancybox href="https://www.youtube.com/watch?v=ekO_IyI70DA">
+                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/ekO_IyI70DA/hqdefault.jpg" />
+                                    <div class="play-button"></div>
+                                </a>
+                            </li>
+                            
+                            <li class="col-sm-6 col-md-6 col-6">
+                                <a data-fancybox href="https://www.youtube.com/watch?v=8VHcPKwf-t0">
+                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/8VHcPKwf-t0/hqdefault.jpg" />
+                                    <div class="play-button"></div>
+                                </a>
+                            </li>
+
+                            <li class="col-sm-6 col-md-6 col-6">
+                                <a data-fancybox href="https://www.youtube.com/watch?v=wMMV8Ui81Dw">
+                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/wMMV8Ui81Dw/hqdefault.jpg" />
+                                    <div class="play-button"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#profil" class="banner-one__btn" style="display: table; margin: 0 auto">Tampilkan Semua</a>
+                </div>
+            </div>
         </section>
 
         <!-- Jalur Pendakian -->
-        <section class="pricing-one" id="pricing" style="padding: 250px 0 100px 0">
+        <section class="pricing-one" style="padding: 250px 0 100px 0">
             <div class="container trip-detail">
                 <div class="block-title text-center">
-                    <div class="block-title__text"><span>Jalur Pendakian Resmi</span></div>
+                    <div class="block-title__text"><span>Jalur Pendakian</span></div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="team-single">
                             <img src="images/listing/img-19.png" alt="" />
-                            <div class="team-overlay text-center">
-                                <h6>VIA TRETES</h6>
-                            </div>
+                            <a href="tretes.php?via=tretes">
+                                <div class="team-overlay text-center">
+                                    <h6>VIA TRETES</h6>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="team-single">
                             <img src="images/listing/img-20.jpg" alt="" />
-                            <div class="team-overlay text-center">
-                                <h6>VIA TAMBAKSARI</h6>
-                            </div>
+                            <a href="tambaksari.php?via=tambaksari">
+                                <div class="team-overlay text-center">
+                                    <h6>VIA TAMBAKSARI</h6>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="team-single">
                             <img src="images/listing/img-21.jpg" alt="" />
-                            <div class="team-overlay text-center">
-                                <h6>VIA LAWANG</h6>
-                            </div>
+                            <a href="lawang.php?via=lawang">
+                                <div class="team-overlay text-center">
+                                    <h6>VIA LAWANG</h6>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="team-single">
                             <img src="images/listing/img-22.png" alt="" />
-                            <div class="team-overlay text-center">
-                                <h6>VIA SUMBER BRANTAS</h6>
-                            </div>
+                            <a href="sumberbrantas.php?via=sumberbrantas">
+                                <div class="team-overlay text-center">
+                                    <h6>VIA SUMBER BRANTAS</h6>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -574,108 +586,124 @@
                     <div class="item">
                         <img src="images/logos/basarnas-hover.png" alt="Awesome Image" />
                     </div><!-- /.item -->
-                    
+                    <div class="item">
+                        <img src="images/logos/malang-hover.png" alt="Awesome Image">
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/batu-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/mojokerto-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/jombang-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/pasuruan-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/pmi-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <img src="images/logos/orari-hover.png" alt="Awesome Image" />
+                    </div><!-- /.item -->
                 </div><!-- /.brand-carousel-one -->
                 <hr class="style-one" />
             </div><!-- /.container -->
         </section>
 
         <!-- Footer -->
-        <footer class="site-footer">
+        <footer class="site-footer" id="kontak">
             <div class="site-footer__subscribe">
                 <div class="container">
                     <div class="block-title text-center">
-                        <div class="block-title__text"><span>Kontak</span></div><!-- /.block-title__text -->
-                    </div><!-- /.block-title -->
-                    <form action="#" class="site-footer__subscribe-form">
-                        <input type="text" name="email" placeholder="Enter your email">
-                        <button type="submit">Get Started</button>
-                    </form><!-- /.subscribe-form -->
-                </div><!-- /.container -->
-            </div><!-- /.site-footer__subscribe -->
+                        <div class="block-title__text"><span>Kontak</span></div>
+                    </div>
+                    <form id="signup" method="post" class="reply-form">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" placeholder="Nama" class="reply-form__field" name="nama" id="nama">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" placeholder="Email" class="reply-form__field" name="subscriber_email" id="subscriber_email">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea placeholder="Pesan" class="reply-form__field" name="pesan" id="pesan"></textarea>
+                                <button class="reply-form__btn" type="submit">Kirim Pesan</button>
+                            </div>
+                        </div>
+                    </form>
+                        <div id="success_message" style="margin: 0 0 45px; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; display: none;">
+                            <span class="info" id="subscribe_message" style="font-style: italic; display: block; letter-spacing: .04em; color: #9d9d9d;">PESAN ANDA TELAH TERKIRIM!</span>
+                        </div>
+                </div>
+            </div>
             <div class="site-footer__main-footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget footer-widget--about-widget">
-                                <a href="index.html" class="footer-widget__footer-logo"><img src="images/logos/logos.png" alt="Awesome Image" /></a>
-                                <p>888 999 0000</p>
-                                <p>needhelp@nonid.com</p>
-                                <p>855 road, broklyn street <br>
-                                    new york 600</p>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-3 -->
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <h3 class="footer-widget__title">
-                                    Explore
-                                </h3><!-- /.footer-widget__title -->
-                                <ul class="footer-widget__link-list">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Our Team</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">How It Works</a></li>
-                                </ul><!-- /.footer-widget__link-list -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
+                                <a href="index.html" class="footer-widget__footer-logo"><img src="images/logos/logos2.png" alt="Awesome Image" /></a>
+                                <p>Jl. Simpang Panji Suroso No.144, Arjosari, Kec. Blimbing, <br>
+                                    Kota Malang, Jawa Timur 65126</p>
+                            </div>
+                        </div>
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget">
                                 <h3 class="footer-widget__title">
-                                    Services
-                                </h3><!-- /.footer-widget__title -->
+                                    Kontak
+                                </h3>
                                 <ul class="footer-widget__link-list">
-                                    <li><a href="#">Speed Optimization</a></li>
-                                    <li><a href="#">Marketing Analysis</a></li>
-                                    <li><a href="#">SEO and Backlinks</a></li>
-                                    <li><a href="#">Content Marketing</a></li>
-                                </ul><!-- /.footer-widget__link-list -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-3 -->
-                        <div class="col-lg-2 col-md-6 col-sm-12">
+                                    <li>(0341) – 483254</li>
+                                    <li>tahuraradensoerjo@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget">
                                 <h3 class="footer-widget__title">
-                                    Links
-                                </h3><!-- /.footer-widget__title -->
+                                    Jam Operasional
+                                </h3>
                                 <ul class="footer-widget__link-list">
-                                    <li><a href="#">Help</a></li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Clients</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul><!-- /.footer-widget__link-list -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
-                        <div class="col-lg-2 col-md-6 col-sm-12 d-flex">
+                                    <li>Senin - Kamis, 07.00 - 15.30</li>
+                                    <li>Jumat, 07.00 - 14.30</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
                             <div class="footer-widget my-auto">
                                 <div class="social-block">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                </div><!-- /.social-block -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.site-footer__main-footer -->
+                                    <a target="_blank" href="https://instagram.com/tahuraradensoerjo.official?igshid=1lwx5yb6lhu3b"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCl0gtcFpoFrQY6MU50tqC4Q?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
+                                    <a target="_blank" href="mailto:tahuraradensoerjo@gmail.com?Subject=Hello"><i class="fas fa-envelope fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="site-footer__bottom-footer text-center">
                 <div class="container">
-                    <p>&copy; copyright 2020 by <a href="#">UPT Tahura Raden Soerjo</a></p>
-                </div><!-- /.container -->
-            </div><!-- /.site-footer__bottom-footer -->
+                    <p>&copy; copyright 2020 by <a href="index.html">UPT Tahura Raden Soerjo</a></p>
+                    <p>by <a target="_blank" href="https://www.instagram.com/amiruzg/">Amiruzzuhhad Gunes</p>
+                </div>
+            </div>
         </footer>
 
-    </div><!-- /.page-wrapper -->
+    </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- /.scroll-to-top -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="vendors/validate/jquery.validate.js"></script>
+    <script src="js/mailchimp.js"></script>
     
     <script>
         $(function() {
