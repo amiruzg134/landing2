@@ -3130,3 +3130,22 @@ img {
     max-width: 400px;
     padding: 0 15px;
 }
+
+.error:nth-child(2) {
+  position: relative;
+  top: -30px;
+  left: 30px;
+  color: red
+}
+
+@import "compass/css3";
+
+@keyframes rotate {
+  from { transform: rotate(0deg);   }
+  to   { transform: rotate(360deg); }
+}
+.fa-spinner {
+  animation: rotate steps(12) 1s infinite;
+  height: 24px;
+  width: 24px;
+}

@@ -21,7 +21,7 @@
             messages: {
 
                 subscriber_email: {
-                    required: 'Email harus di isi.',
+                    required: 'Email harus diisi.',
                     email: 'Email harus valid.'
                 },
                 nama:{
@@ -36,7 +36,7 @@
 
                 var subscriber_email = $('#subscriber_email').val();
 
-                $('#subscribe_message').html('....');
+                $('#subscribe_message').html('<i class="fas fa-spinner"></i>');
 
                 $.ajax({
                     type: 'post',

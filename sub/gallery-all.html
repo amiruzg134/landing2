@@ -1,0 +1,629 @@
+<?php
+    include 'config.php';
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahura Raden Soerjo</title>
+    <!-- favion -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo-tahura.png">
+    <!-- link to font awesome -->
+    <link media="all" rel="stylesheet" href="vendors/font-awesome/css/all.css">
+    <!-- link to material icon font -->
+    <link media="all" rel="stylesheet" href="vendors/material-design-icons/material-icons.css">
+    <!-- link to wow js animation -->
+    <link media="all" rel="stylesheet" href="vendors/animate/animate.css">
+    <!-- include bootstrap css -->
+    <link media="all" rel="stylesheet" href="css/bootstrap.css">
+    <!-- include owl css -->
+    <link media="all" rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css">
+    <link media="all" rel="stylesheet" href="vendors/owl-carousel/owl.theme.css">
+    <!-- include fancybox css -->
+    <link media="all" rel="stylesheet" href="vendors/fancybox/jquery.fancybox.css">
+    <!-- include main css -->
+    <link media="all" rel="stylesheet" href="css/main.css">
+    <!-- link to revolution css  -->
+    <link rel="stylesheet" type="text/css" href="vendors/revolution/css/settings.css">
+    <!-- link to magnify css  -->
+    <link rel="stylesheet" type="text/css" href="vendors/magnify/magnify.css">
+    <!-- link to slider css  -->
+    <link rel="stylesheet" type="text/css" href="vendors/ionRangeSlider/css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
+</head>
+<body class="default-page">
+    <div class="preloader" id="pageLoad">
+        <div class="holder">
+            <div class="coffee_cup"></div>
+        </div>
+    </div>
+    <!-- main wrapper -->
+    <div id="wrapper">
+        <div class="page-wrapper">
+            <!-- main header -->
+            <header id="header" class="white-header">
+                <div class="container-fluid">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="index.html">
+                            <img class="normal" src="img/logos/logos.svg" alt="Entrada">
+                            <img class="gray-logo" src="img/logos/logos-gray.svg" alt="Entrada">
+                        </a>
+                    </div>
+                    <!-- main navigation -->
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle nav-opener" data-toggle="collapse" data-target="#nav">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- main menu items and drop for mobile -->
+                        <div class="collapse navbar-collapse" id="nav">
+                            <!-- main navbar -->
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown has-mega-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">AKTIvITAS <b class="fas fa-angle-down"></b></a>
+                                    <div class="dropdown-menu">
+                                        <div class="drop-wrap">
+                                            <div class="drop-holder">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="col">
+                                                            <div class="img-wrap">
+                                                                <a href="#"><img src="img/generic/BirdWatching.jpg" height="215" width="370" alt="image description"></a>
+                                                            </div>
+                                                            <div class="des">
+                                                                <strong class="title"><a href="#">Birdwatching</a></strong>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis elit tortor. Aenean sollicitudin magna arcu, eu ornare lacus convallis nec.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="col">
+                                                            <div class="img-wrap">
+                                                                <a href="#"><img src="img/generic/pendakian2.jpg" height="215" width="370" alt="image description"></a>
+                                                            </div>
+                                                            <div class="des">
+                                                                <strong class="title"><a href="#">Pendakian</a></strong>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis elit tortor. Aenean sollicitudin magna arcu, eu ornare lacus convallis nec.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="col">
+                                                            <div class="img-wrap">
+                                                                <a href="#"><img src="img/generic/campground.jpg" height="215" width="370" alt="image description"></a>
+                                                            </div>
+                                                            <div class="des">
+                                                                <strong class="title"><a href="#">Campground</a></strong>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis elit tortor. Aenean sollicitudin magna arcu, eu ornare lacus convallis nec.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-3">
+                                                        <div class="col">
+                                                            <div class="img-wrap">
+                                                                <a href="#"><img src="img/generic/spot.jpg" height="228" width="350" alt="image description"></a>
+                                                            </div>
+                                                            <div class="des">
+                                                                <strong class="title"><a href="#">Spot selfie</a></strong>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis elit tortor. Aenean sollicitudin magna arcu, eu ornare lacus convallis nec.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">PELAJARI TAHURA <b class="fas fa-angle-down"></b></a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="#">SEKILAS TAHURA</a></li>
+                                            <li><a href="#">KONDISI UMUM</a></li>
+                                            <li><a href="#">RADEN MAS ARIO SOERJO</a></li>
+                                            <li><a href="#">AKSES</a></li>
+                                            <li><a href="#">SARANA PRASARANA</a></li>
+                                            <li><a href="#">BIODIVERSITY</a></li>
+                                            <li><a href="#">PESONA WISATA</a></li>
+                                        </ul>
+                                    </div>
+                                </li>                       
+                                <li class="dropdown hidden-xs hidden-sm last-dropdown v-divider">
+                                    <a href="#"><span class="text">ID</span> <span class="fas fa-angle-down"></span></a>
+                                    <div class="dropdown-menu dropdown-sm">
+                                        <div class="drop-wrap lang-wrap">
+                                            <div class="lang-row">
+                                                <div class="lang-col">
+                                                    <a href="#">
+                                                        <span class="text">Indonesia</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="lang-row">
+                                                <div class="lang-col">
+                                                    <a href="#">
+                                                        <span class="text">English</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- main container -->
+            <main id="main">
+
+                <div class="tab-container">
+
+                    <!-- tab panes -->
+                    <div class="container tab-content trip-detail">
+
+                        <!-- gallery tab content -->
+                        <div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="question-select">
+                                        <select id="tabSelect" class="question">
+                                            <option value="#innerTab1">Semua</option>
+                                            <option value="#innerTab2">Leaflet</option>
+                                            <option value="#innerTab3">Video</option>   
+                                            <option value="#innerTab4">Kegiatan Penanaman</option>                                    
+                                        </select>
+                                        <ul class="nav nav-tabs" id="questionTab">
+                                            <li class="active"><a href="#innerTab1" data-toggle="tab">Semua</a></li>
+                                            <li><a href="#innerTab2" data-toggle="tab">Leaflet</a></li>
+                                            <li><a href="#innerTab3" data-toggle="tab">VIdeo</a></li>
+                                            <li><a href="#innerTab4" data-toggle="tab">Kegiatan Penanaman</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-wrapper">
+                                        <div role="tabpanel" class="tab-pane active" id="innerTab1">
+                                            <ul class="row gallery-list has-center">
+                                                <li class="col-sm-6 col-md-6 col-6 ">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/img-21.jpeg" title="Peta Wisata Tahura Raden Soerjo">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/img-21.jpeg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">Peta Wisata Tahura Raden Soerjo</strong>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6 ">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" title="Air Terjun Tretes">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Air Terjun Tretes</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" title="Air Terjun Tretes">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Air Terjun Tretes</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="ekO_IyI70DA" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="8VHcPKwf-t0" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/jenggerA.jpg" title="Air Terjun Watu Jengger">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/jenggerA.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Air Terjun Watu Jengger</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/jenggerB.jpg" title="Air Terjun Watu Jengger">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/jenggerB.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Air Terjun Watu Jengger</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="dDtW8TZg8nM" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="wMMV8Ui81Dw" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="oMPdX1yuUlI" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="P-RpbWUF8Qo" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/leaflet-BUPER-A.jpg" title="Loka Wiyata surya">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/leaflet-BUPER-A.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Loka Wiyata surya</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/leaflet-BUPER-B.jpg" title="Loka Wiyata surya">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/leaflet-BUPER-B.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Loka Wiyata surya</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="SwkNeo_Oac8" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="aPMtAgqnU9A" ></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="innerTab2">
+                                            <ul class="row gallery-list has-center">
+                                                <li class="col-sm-6 col-md-6 col-6 ">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" title="Air Terjun Tretes">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Air Terjun Tretes</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" title="Air Terjun Tretes">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Air Terjun Tretes</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/jenggerA.jpg" title="Air Terjun Watu Jengger">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/jenggerA.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Air Terjun Watu Jengger</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/jenggerB.jpg" title="Air Terjun Watu Jengger">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/jenggerB.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Air Terjun Watu Jengger</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/leaflet-BUPER-A.jpg" title="Loka Wiyata surya">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/leaflet-BUPER-A.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_1</strong>
+                                                                <span class="sub-text">Loka Wiyata surya</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <a class="fancybox" data-fancybox-group="group" href="img/gallery/leaflet-BUPER-B.jpg" title="Loka Wiyata surya">
+                                                        <span class="img-holder">
+                                                            <img src="img/gallery/leaflet-BUPER-B.jpg" alt="image description">
+                                                        </span>
+                                                        <span class="caption">
+                                                            <span class="centered">
+                                                                <strong class="title">LEAFLET_2</strong>
+                                                                <span class="sub-text">Loka Wiyata surya</span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="innerTab3">
+                                            <ul class="row gallery-list has-center">
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="ekO_IyI70DA" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="8VHcPKwf-t0" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="SwkNeo_Oac8" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="aPMtAgqnU9A" ></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="innerTab4">
+                                            <ul class="row gallery-list has-center">
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="dDtW8TZg8nM" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="wMMV8Ui81Dw" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="oMPdX1yuUlI" ></div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-sm-6 col-md-6 col-6">
+                                                    <div class="youtube-container">
+                                                        <div class="youtube-player" data-id="P-RpbWUF8Qo" ></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- main footer -->
+        <footer id="footer">
+            <div class="container">
+                <!-- newsletter form -->
+                <form action="php/subscribe.html" id="signup" method="post" class="newsletter-form">
+                    <fieldset>
+                        <div class="input-holder">
+                            <input type="text" class="form-control" placeholder="Nama" name="nama" id="nama">
+                        </div>
+                        <div class="input-holder">
+                            <input type="email" class="form-control" placeholder="Alamat Email" name="subscriber_email" id="subscriber_email">
+                        </div>
+                        <div class="input-holder">
+                            <textarea class="form-control" rows="3" placeholder="Pesan" name="pesan" id="pesan"></textarea>
+                            <input type="submit" value="KIRIM">
+                        </div>
+                        <span class="info" id="subscribe_message">Hubungi kami melalui email</span>
+                    </fieldset>
+                </form>
+                        <div id="success_message" style="margin: 0 0 45px; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; display: none;">
+                            <span class="info" id="subscribe_message" style="font-style: italic; display: block; letter-spacing: .04em; color: #9d9d9d;">PESAN ANDA TELAH TERKIRIM!</span>
+                        </div>
+
+                <!-- footer links -->
+                <div class="row footer-holder">
+                    <nav class="col-sm-4 col-lg-3 footer-nav active">
+                        <h3>ALAMAT KANTOR</h3>
+                        <ul class="slide">
+                            <li>Jl. Simpang Panji Suroso No.144, Arjosari, Kec. Blimbing, Kota Malang, Jawa Timur 65126</li>
+                        </ul>
+                    </nav>
+                    <nav class="col-sm-4 col-lg-3 footer-nav">
+                        <h3>JAM OPERASIONAL</h3>
+                        <ul class="slide">
+                            <li>Senin - Kamis, 07.00 - 15.30</li>
+                            <li>Jumat, 07.00 - 14.30</li>
+                        </ul>
+                    </nav>
+                    <nav class="col-sm-4 col-lg-3 footer-nav">
+                        <h3>KONTAK KAMI</h3>
+                        <ul class="slide">
+                            <li>Telp: (0341) – 483254</li>
+                            <li>tahuraradensoerjo@gmail.com</li>
+                        </ul>
+                    </nav>
+                    <nav class="col-sm-4 col-lg-3 footer-nav">
+                        <h3>WEBSITE</h3>
+                        <ul class="slide">
+                            <li><a href="https://tahuraradensoerjo.or.id">www.tahuraradensoerjo.or.id</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- social wrap -->
+                <ul class="social-wrap">
+                    <li class="facebook">
+                        <a target="_blank" href="https://instagram.com/tahuraradensoerjo.official?igshid=1lwx5yb6lhu3b">
+                            <span class="fab fa-instagram fa-3x"></span>
+                            <strong class="txt">Follow Us</strong>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCl0gtcFpoFrQY6MU50tqC4Q?view_as=subscriber">
+                            <span class="fab fa-youtube fa-3x"></span>
+                            <strong class="txt">Subscribe Us</strong>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a target="_blank" href="mailto:tahuraradensoerjo@gmail.com?Subject=Hello">
+                            <span class="fas fa-envelope fa-3x"></span>
+                            <strong class="txt">Mail Us</strong>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- copyright -->
+                            <strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2020 - UPT Tahura Raden Soerjo - by Amiruzzuhhad Gunes</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- scroll to top -->
+    <div class="scroll-holder text-center">
+        <a href="javascript:" id="scroll-to-top"><i class="fas fa-angle-down"></i></a>
+    </div>
+        <!-- jquery library -->
+    <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+    <!-- external scripts -->
+    <script src="vendors/bootstrap/javascripts/bootstrap.min.js"></script>
+    <script src="vendors/jquery-placeholder/jquery.placeholder.min.js"></script>
+    <script src="vendors/match-height/jquery.matchHeight.js"></script>
+    <script src="vendors/wow/wow.min.js"></script>
+    <script src="vendors/stellar/jquery.stellar.min.js"></script>
+    <script src="vendors/validate/jquery.validate.js"></script>
+    <script src="vendors/waypoint/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
+    <script src="vendors/fancybox/jquery.fancybox.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jcf/js/jcf.js"></script>
+    <script src="vendors/jcf/js/jcf.select.js"></script>
+    <script src="js/mailchimp.js"></script>
+    <!-- <script src="vendors/retina/retina.min.js"></script> -->
+    <script src="vendors/sticky-kit/sticky-kit.js"></script>
+    <script src="js/sticky-kit-init.js"></script>
+    <script src="vendors/bootstrap-datetimepicker-master/dist/js/bootstrap-datepicker.js"></script>
+    <!-- custom jquery script -->
+    <script src="js/jquery.main.js"></script>
+    <!-- revolution slider plugin -->
+    <script type="text/javascript" src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- rs5.0 core files -->
+    <script type="text/javascript" src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <!-- revolutions slider script -->
+    <script src="js/revolution.js"></script>
+    <!-- magnify script -->
+    <script src="vendors/magnify/jquery.magnify.js"></script>
+    <script src="vendors/magnify/jquery.magnify-mobile.js"></script>
+    <!-- ion slider script -->
+    <script src="vendors/ionRangeSlider/js/ion.rangeSlider.min.js"></script>
+
+    <script>
+        $(function() {
+            var v = document.getElementsByClassName("youtube-player");
+            for (var n = 0; n < v.length; n++) {
+                var p = document.createElement("div");
+                p.innerHTML = JWTubeThumb(v[n].dataset.id);
+                p.onclick = JWTubeIframe;
+                v[n].appendChild(p);
+            }
+        });
+
+        function JWTubeThumb(id) {
+            return '<img class="youtube-thumb" src="http://i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
+        }
+         
+        function JWTubeIframe() {
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("src", "http://www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("id", "youtube-iframe");
+            this.parentNode.replaceChild(iframe, this);
+        }
+    </script>
+
+</body>
+</html>
