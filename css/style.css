@@ -509,7 +509,7 @@ hr.style-one {
 .banner-one {
   background: transparent url(../images/banner-bg-1-1.png) right top no-repeat;
   background-size: cover;
-  padding-top: 430px;
+  padding-top: 300px;
   padding-bottom: 147px;
   position: relative;
 }
@@ -554,7 +554,7 @@ hr.style-one {
 }
 .banner-one__moc {
   position: absolute;
-  top: 350px;
+  top: 220px;
   right: 0;
 }
 .banner-one .block-title {
@@ -1199,7 +1199,7 @@ hr.style-one {
   left: 0;
 }
 .blog-details__meta {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .blog-details__meta-link {
   position: relative;
@@ -1234,7 +1234,7 @@ hr.style-one {
   color: #666E82;
 }
 .blog-details__text + .blog-details__text {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 .blog-details__content-title {
   margin: 0;
@@ -3011,6 +3011,20 @@ hr.style-one {
   overflow: hidden;
 }
 
+.video-berita {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid #000;
+}
+
+.img-berita{
+  display: block;
+  margin: 20px auto;
+  max-width: 70%;
+}
+
 .youtube-thumb, .img-holder img {
     height: 270px;
     width: 100%;
@@ -3148,4 +3162,22 @@ img {
   animation: rotate steps(12) 1s infinite;
   height: 24px;
   width: 24px;
+}
+
+.sub-judul {
+  font-size: 14px;
+  line-height: 1.1em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockuot {
+  padding: 10px 20px;
+  margin: 20px 0 20px 0;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+  text-align: justify;
+  font-style: italic;
 }

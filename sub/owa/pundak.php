@@ -107,7 +107,7 @@
 							<div class="holder">
 								<h1 class="small-size">Gunung Pundak</h1>
 								<div class="description">
-									<p>Gunung pundak memiliki ketinggian 1.585 mdpl tempat ini sangat cocok bagi kalian yang suka bermalam dan berwisata sembari menikmati suasana…</p>
+									<p>Gunung pundak memiliki ketinggian 1.585 mdpl tempat ini sangat cocok bagi kalian yang suka bermalam dan berwisata sembari menikmati suasana alam yang memanjakan mata.</p>
 								</div>
 								<ul class="reviews-info">
 									<li style="width: 100%">

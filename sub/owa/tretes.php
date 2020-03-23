@@ -123,7 +123,7 @@
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Harga Tiket Masuk</strong>
 											<ul>
-												<li>Wisatawan Lokal : Rp.  / orang</li>
+												<li>Wisatawan Lokal : Rp. 11.000 / orang</li>
 												<li>Wisatawan mancanegara : Rp. - / orang</li>
 												<li>Parkir mobil : Rp.  </li>
 												<li>Parkir motor : Rp. </li>
