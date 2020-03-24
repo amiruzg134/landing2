@@ -1,7 +1,3 @@
-<?php
-    include 'config.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tahura Raden Soerjo</title>
     <!-- favion -->
-    <link rel="icon" type="image/png" sizes="16x16" href="img/logo-tahura.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/logos/logo-tahura.png">
     <!-- link to font awesome -->
     <link media="all" rel="stylesheet" href="vendors/font-awesome/css/all.css">
     <!-- link to material icon font -->
@@ -23,7 +19,7 @@
     <link media="all" rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css">
     <link media="all" rel="stylesheet" href="vendors/owl-carousel/owl.theme.css">
     <!-- include fancybox css -->
-    <link media="all" rel="stylesheet" href="vendors/fancybox/jquery.fancybox.css">
+    <link media="all" rel="stylesheet" href="../css/jquery.fancybox.min.css">
     <!-- include main css -->
     <link media="all" rel="stylesheet" href="css/main.css">
     <!-- link to revolution css  -->
@@ -107,7 +103,7 @@
                                         <ul class="nav nav-tabs" id="questionTab">
                                             <li class="active"><a href="#innerTab1" data-toggle="tab">Semua</a></li>
                                             <li><a href="#innerTab2" data-toggle="tab">Leaflet</a></li>
-                                            <li><a href="#innerTab3" data-toggle="tab">VIdeo</a></li>
+                                            <li><a href="#innerTab3" data-toggle="tab">Video</a></li>
                                             <li><a href="#innerTab4" data-toggle="tab">Kegiatan Penanaman</a></li>
                                         </ul>
                                     </div>
@@ -115,7 +111,7 @@
                                         <div role="tabpanel" class="tab-pane active" id="innerTab1">
                                             <ul class="row gallery-list has-center">
                                                 <li class="col-sm-6 col-md-6 col-6 ">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/img-21.jpeg" title="Peta Wisata Tahura Raden Soerjo">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/img-21.jpeg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/img-21.jpeg" alt="image description">
                                                         </span>
@@ -127,7 +123,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6 ">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" title="Air Terjun Tretes">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
                                                         </span>
@@ -140,7 +136,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" title="Air Terjun Tretes">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
                                                         </span>
@@ -153,19 +149,21 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="ekO_IyI70DA" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=ekO_IyI70DA">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/ekO_IyI70DA/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="8VHcPKwf-t0" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=8VHcPKwf-t0">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/8VHcPKwf-t0/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerA.jpg" title="Air Terjun Watu Jengger">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerB.jpg" data-fancybox="images">
                                                         <span class="img-holder">
-                                                            <img src="../images/gallery/jenggerA.jpg" alt="image description">
+                                                            <img src="../images/gallery/jenggerB.jpg" alt="image description">
                                                         </span>
                                                         <span class="caption">
                                                             <span class="centered">
@@ -176,9 +174,9 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerB.jpg" title="Air Terjun Watu Jengger">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerA.jpg" data-fancybox="images">
                                                         <span class="img-holder">
-                                                            <img src="../images/gallery/jenggerB.jpg" alt="image description">
+                                                            <img src="../images/gallery/jenggerA.jpg" alt="image description">
                                                         </span>
                                                         <span class="caption">
                                                             <span class="centered">
@@ -189,27 +187,31 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="dDtW8TZg8nM" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=dDtW8TZg8nM">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/dDtW8TZg8nM/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="wMMV8Ui81Dw" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=wMMV8Ui81Dw">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/wMMV8Ui81Dw/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="oMPdX1yuUlI" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=oMPdX1yuUlI">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/oMPdX1yuUlI/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="P-RpbWUF8Qo" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=P-RpbWUF8Qo">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/P-RpbWUF8Qo/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-A.jpg" title="Loka Wiyata surya">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-A.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/leaflet-BUPER-A.jpg" alt="image description">
                                                         </span>
@@ -222,7 +224,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-B.jpg" title="Loka Wiyata surya">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-B.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/leaflet-BUPER-B.jpg" alt="image description">
                                                         </span>
@@ -235,21 +237,23 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="SwkNeo_Oac8" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=SwkNeo_Oac8">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/SwkNeo_Oac8/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="aPMtAgqnU9A" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=aPMtAgqnU9A">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/aPMtAgqnU9A/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="innerTab2">
                                             <ul class="row gallery-list has-center">
                                                 <li class="col-sm-6 col-md-6 col-6 ">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" title="Air Terjun Tretes">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
                                                         </span>
@@ -262,7 +266,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" title="Air Terjun Tretes">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
                                                         </span>
@@ -275,9 +279,9 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerA.jpg" title="Air Terjun Watu Jengger">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerB.jpg" data-fancybox="images">
                                                         <span class="img-holder">
-                                                            <img src="../images/gallery/jenggerA.jpg" alt="image description">
+                                                            <img src="../images/gallery/jenggerB.jpg" alt="image description">
                                                         </span>
                                                         <span class="caption">
                                                             <span class="centered">
@@ -288,9 +292,9 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerB.jpg" title="Air Terjun Watu Jengger">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/jenggerA.jpg" data-fancybox="images">
                                                         <span class="img-holder">
-                                                            <img src="../images/gallery/jenggerB.jpg" alt="image description">
+                                                            <img src="../images/gallery/jenggerA.jpg" alt="image description">
                                                         </span>
                                                         <span class="caption">
                                                             <span class="centered">
@@ -301,7 +305,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-A.jpg" title="Loka Wiyata surya">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-A.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/leaflet-BUPER-A.jpg" alt="image description">
                                                         </span>
@@ -314,7 +318,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-B.jpg" title="Loka Wiyata surya">
+                                                    <a class="fancybox" data-fancybox-group="group" href="../images/gallery/leaflet-BUPER-B.jpg" data-fancybox="images">
                                                         <span class="img-holder">
                                                             <img src="../images/gallery/leaflet-BUPER-B.jpg" alt="image description">
                                                         </span>
@@ -331,48 +335,56 @@
                                         <div role="tabpanel" class="tab-pane" id="innerTab3">
                                             <ul class="row gallery-list has-center">
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="ekO_IyI70DA" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=ekO_IyI70DA">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/ekO_IyI70DA/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="8VHcPKwf-t0" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=8VHcPKwf-t0">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/8VHcPKwf-t0/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="SwkNeo_Oac8" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=SwkNeo_Oac8">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/SwkNeo_Oac8/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="aPMtAgqnU9A" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=aPMtAgqnU9A">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/aPMtAgqnU9A/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div role="tabpanel" class="tab-pane" id="innerTab4">
                                             <ul class="row gallery-list has-center">
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="dDtW8TZg8nM" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=dDtW8TZg8nM">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/dDtW8TZg8nM/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="wMMV8Ui81Dw" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=wMMV8Ui81Dw">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/wMMV8Ui81Dw/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="oMPdX1yuUlI" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=oMPdX1yuUlI">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/oMPdX1yuUlI/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                                 <li class="col-sm-6 col-md-6 col-6">
-                                                    <div class="youtube-container">
-                                                        <div class="youtube-player" data-id="P-RpbWUF8Qo" ></div>
-                                                    </div>
+                                                    <a data-fancybox href="https://www.youtube.com/watch?v=P-RpbWUF8Qo">
+                                                        <img style="height: 270px" class="card-img-top img-fluid" src="https://img.youtube.com/vi/P-RpbWUF8Qo/hqdefault.jpg" />
+                                                        <div class="play-button"></div>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -470,7 +482,7 @@
     <script src="vendors/counter-up/jquery.counterup.min.js"></script>
     <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
     <script src="vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
-    <script src="vendors/fancybox/jquery.fancybox.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="vendors/jcf/js/jcf.js"></script>
     <script src="vendors/jcf/js/jcf.select.js"></script>
