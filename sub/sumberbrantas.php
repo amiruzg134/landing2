@@ -71,13 +71,7 @@
 									<a href="../index.html">Beranda</a>
 								</li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">PELAJARI TAHURA <b class="fas fa-angle-down"></b></a>
-									<div class="dropdown-menu">
-										<ul>
-											<li><a href="#">SEKILAS TAHURA</a></li>
-											<li><a href="#">KONDISI UMUM</a></li>
-										</ul>
-									</div>
+									<a href="../sekilas.html">Pelajari Tahura <b class="fas fa-angle-down"></b></a>
 								</li>	
 							</ul>
 						</div>

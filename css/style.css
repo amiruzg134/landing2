@@ -3181,3 +3181,21 @@ img {
   text-align: justify;
   font-style: italic;
 }
+
+.blog-one__single-inner-block:hover li{
+  color: white
+}
+
+.footer-widget p:hover{
+  color: #FF8257
+}
+
+[node-id] rect {
+        fill: #81D4FA;
+    }
+[node-id] circle {
+        fill: #4FC3F7;
+    }
+[link-id] path {
+        stroke: #4DD0E1;
+    }
