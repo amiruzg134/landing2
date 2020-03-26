@@ -1,37 +1,11 @@
 /*
 * expandable menu started
 */
-@media (max-width: 1366px){
-    .banner-one {
-        padding-top: 180px;
-    }
 
-    .banner-one__moc{
-        top: 260px;
-        width: 55%;
-    }
-}
-
-
-@media (max-width: 1024px){
-    .banner-one {
-        padding-top: 150px;
-    }
-
-    .banner-one__moc{
-        display: none;
-    }
-
-    .site-header.header-one .header-navigation .container .right-side-box {
-        display: none;
-    }
-
-    .site-header.header-one .header-navigation .container .menu-toggler {
-        float: right;
-    }
-}
 
 @media (max-width: 1199px) {
+
+
     .header-navigation {
         margin-bottom: 0;
     }
@@ -407,21 +381,19 @@
         -o-transform: scale(.7);
         transform: scale(.7);
     }
-
 }
 
 @media(max-width: 991px) {
     .banner-one__moc {
-        /*-webkit-transform: scale(.5);
+        -webkit-transform: scale(.5);
         -ms-transform: scale(.5);
         -o-transform: scale(.5);
         transform: scale(.5);
-        transform-origin: top right;*/
-        display: none;
+        transform-origin: top right;
     }
 
     .banner-one {
-        padding-top: 300px;
+        padding-top: 185px;
     }
 
     .cta-three {
@@ -443,10 +415,10 @@
         transform-origin: right top;
     }
 
-/*    .cta-one {
+    .cta-one {
         padding-top: 0px;
         padding-bottom: 0;
-    }*/
+    }
 
     .cta-one__color-box {
         display: none;
@@ -528,7 +500,7 @@
     }
 
     .banner-one {
-        /*padding-bottom: 0;*/
+        padding-bottom: 0;
     }
 
     .banner-one__home-two {
@@ -597,10 +569,6 @@
     }
     .cta-two__feature-single {
         margin-top: 30px;
-    }
-
-    .team-single img{
-        width: 400px
     }
 }
 

@@ -71,8 +71,14 @@
 									<a href="../index.html">Beranda</a>
 								</li>
 								<li class="dropdown">
-									<a href="../sekilas.html">Pelajari Tahura <b class="fas fa-angle-down"></b></a>
-								</li>	
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pelajari Tahura <b class="icon-angle-down"></b></a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="../sekilas.html">Tugas dan Fungsi</a></li>
+                                            <li><a href="../organisasi.html">Struktur Organisasi</a></li>
+                                        </ul>
+                                    </div>
+                                </li>	
 							</ul>
 						</div>
 					</nav>
