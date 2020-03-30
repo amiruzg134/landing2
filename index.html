@@ -15,11 +15,30 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+</style>
 </head>
 
 <body>
     <div class="preloader"></div><!-- /.preloader -->
     <div class="page-wrapper">
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body" style="padding: 50px">
+                <p>
+                    BERDASARKAN SURAT KEPALA DINAS KEHUTANAN PROVINSI JAWA TIMUR NO. 522/725/123.7/2020 TANGGAL 18 MARET 2020, MAKA TERHITUNG MULAI TANGGAL 18 MARET 2020 SELURUH OBJEK WISATA ALAM KAWASAN TAHURA RADEN SOERJO.
+                </p>
+                <h5 class="modal-title fittext-dynamic">"DITUTUP SEMENTARA"</h5>
+                <p>DAN AKAN DITINJAU KEMBALI SESUAI DENGAN PERKEMBANGAN KONDISI YANG TERJADI SECARA NASIONAL.</p>
+              </div>
+              <div class="modal-footer">
+                
+                <a href="berita-all.html" class="banner-one__btn" data-dismiss="modal">Close</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Header -->
     	<header class="site-header header-one">
@@ -388,6 +407,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">28 Maret 2020</div>
+                                <a href="#" class="blog-one__author">Informasi</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-16.php">Paok pancawarna <i>(Pitta guajana)</i></a></h3>
+                                <p class="blog-one__text">Paok pancawarna (bahasa Latin: Pitta guajana) adalah spesies burung dari keluarga Pittidae, dari genus Pitta. Burung ini merupakan jenis burung pemakan semut, kecoa, kumbang, siput...</p>
+                                <a href="berita/berita-16.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">26 Februari 2020</div>
                                 <a href="#" class="blog-one__author">Informasi</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-15.php">Penebaran Benih Dengan Metode Seed Ball</a></h3>
@@ -407,17 +437,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">16 Desember 2019</div>
-                                <a href="#" class="blog-one__author">Berita</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-13.php">8 Anggota Brimob Polda Jatim Tersambar Petir di Puncak Gunung Ringgit</a></h3>
-                                <p class="blog-one__text">Delapan anggota Pusat Pendidikan Korps Brimob (Pusdik Brimob) Watukosek, Gempol, Pasuruan, Jawa Timur, tersambar petir saat ...</p>
-                                <a href="berita/berita-13.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
                     <a href="berita-all.html" class="banner-one__btn" style="display: table; margin: 0 auto">Tampilkan Semua</a>
                 </div>
             </div>
@@ -432,6 +451,18 @@
                 <div class="row tab-container">
                     <div role="tabpanel" class="tab-pane" id="tab05">
                         <ul class="row gallery-list has-center">
+                            <li class="col-sm-6 col-md-6 col-6 ">
+                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/pesona-wisata.jpeg" data-fancybox="images">
+                                    <span class="img-holder">
+                                        <img src="images/gallery/pesona-wisata.jpeg" alt="image description">
+                                    </span>
+                                    <span class="caption">
+                                        <span class="centered">
+                                            <strong class="title">Pesona Wisata Tahura Raden Soerjo</strong>
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
                             <li class="col-sm-6 col-md-6 col-6 ">
                                 <a class="fancybox" data-fancybox-group="group" href="images/gallery/img-21.jpeg" data-fancybox="images">
                                     <span class="img-holder">
@@ -484,12 +515,6 @@
                                 </a>
                             </li>
 
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a data-fancybox href="https://www.youtube.com/watch?v=wMMV8Ui81Dw">
-                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/wMMV8Ui81Dw/hqdefault.jpg" />
-                                    <div class="play-button"></div>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                     <a href="sub/gallery-all.html" class="banner-one__btn" style="display: table; margin: 0 auto">Tampilkan Semua</a>
@@ -755,6 +780,20 @@
             iframe.setAttribute("id", "youtube-iframe");
             this.parentNode.replaceChild(iframe, this);
         }
+
+        $(window).load(function(){        
+           $('#myModal').modal('show');
+        }); 
+
+          $('.fittext-dynamic').each(function(){
+            let t          = $(this),
+                width      = t.data("width") * 2,
+                characters = t.html().length,
+                size       = width/characters;
+            
+            $(this).css('font-size', `${size}vw`);
+          });
     </script>
 
+</body>
 </html>

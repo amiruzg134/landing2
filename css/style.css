@@ -3199,3 +3199,16 @@ img {
 [link-id] path {
         stroke: #4DD0E1;
     }
+
+.modal-title{
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: bold;
+  color: #FF8257;
+  text-align: center;
+}
+
+.modal-body p{
+  text-align: center;
+  padding: 30px 0
+}
