@@ -1194,7 +1194,7 @@ hr.style-one {
   font-weight: 600;
   line-height: 1em;
   padding: 11px 24.5px;
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
 }

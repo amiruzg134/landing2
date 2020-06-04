@@ -70,7 +70,7 @@
                     <div class="col-lg-8">
                         <div class="blog-details__content">
                             <div class="blog-details__image">
-                                <div class="blog-details__date">15 April 2020</div>
+                                <div class="blog-details__date">03 Juni 2020</div>
                             </div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Hildalho</a>
@@ -201,7 +201,7 @@
                                         <img src="../images/berita/img-55.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Kolam berendam khusus wanita yang telah dibenahi sehingga lebih indah, aman dan nyaman</div>
+                                <div class="sub-judul">Spot swafoto baru berlatar belakang air terjun kecil</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-56.jpg" data-fancybox="images">
