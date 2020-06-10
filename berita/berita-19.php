@@ -180,14 +180,18 @@
                                         <img src="../images/berita/img-74.jpg" alt="image description">
                                     </span>
                                 </a>
+                                <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-75.jpeg" data-fancybox="images">
+                                    <span class="img-berita" style="width: 70%; margin-bottom: 10px">
+                                        <img src="../images/berita/img-75.jpeg" alt="image description">
+                                    </span>
+                                </a>
                                 <div class="sub-judul">Penikmat keindahan alam Gajah Mungkur yang tidak tertib berlalu lintas dan dapat mengganggu pengguna jalan serta menimbulkan sampah di jalanan</div>
                             </p>
-                            <p class="blog-details__text">
+                            
                                 <a data-fancybox href="https://www.youtube.com/watch?v=q9qX2dwGLsg">
                                     <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/q9qX2dwGLsg/hqdefault.jpg" />
                                     <div class="play-button"></div>
                                 </a>
-                            </p>
                             
                             <br>
                             <a href="../berita-all.html" class="banner-one__btn" style="display: table; margin: 0 auto">Berita Lainnya</a>
