@@ -265,7 +265,7 @@ hr.style-one {
   /* Thrid Level Menu */
 }
 .header-navigation ul.navigation-box > li + li {
-  margin-left: 45px;
+  margin-left: 40px;
 }
 .header-navigation ul.navigation-box > li:first-child {
   padding-left: 0;
