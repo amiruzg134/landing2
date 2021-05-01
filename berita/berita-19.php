@@ -122,12 +122,12 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-65.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-65.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-66.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-66.jpg" alt="image description">
                                     </span>
                                 </a>
@@ -135,12 +135,12 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-67.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-67.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-68.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-68.jpg" alt="image description">
                                     </span>
                                 </a>
@@ -148,12 +148,12 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-69.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-69.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-70.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 3px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 3px">
                                         <img src="../images/berita/img-70.jpg" alt="image description">
                                     </span>
                                 </a>
@@ -161,22 +161,22 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-71.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 2px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 2px">
                                         <img src="../images/berita/img-71.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-72.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 2px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 2px">
                                         <img src="../images/berita/img-72.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-73.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 2px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 2px">
                                         <img src="../images/berita/img-73.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-74.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 49%; margin: 2px">
+                                    <span class="img-berita" style="float: left; width: 48%; margin: 2px">
                                         <img src="../images/berita/img-74.jpg" alt="image description">
                                     </span>
                                 </a>
@@ -194,7 +194,7 @@
                                 </a>
                             
                             <br>
-                            <a href="../berita-all.html" class="banner-one__btn" style="display: table; margin: 0 auto">Berita Lainnya</a>
+                            <a href="../berita-all.html" class="banner-one__btn" style="display: table; margin: 20px auto">Berita Lainnya</a>
                         </div>
                     </div>
                     <div class="col-lg-4">

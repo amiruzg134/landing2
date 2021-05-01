@@ -103,12 +103,12 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-41.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 34.5%; margin: 5px">
+                                    <span class="img-berita" style="float: left; width: 33.5%; margin: 5px">
                                         <img src="../images/berita/img-41.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-42.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="float: left; width: 61.5%; margin: 5px">
+                                    <span class="img-berita" style="float: left; width: 60.5%; margin: 5px">
                                         <img src="../images/berita/img-42.jpg" alt="image description">
                                     </span>
                                 </a>
@@ -148,11 +148,11 @@
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-47.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="width: 70%; margin-bottom: 10px">
+                                    <span class="img-berita" style="width: 80%; margin-bottom: 10px">
                                         <img src="../images/berita/img-47.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Pemasangan dan pembenahan paving di area berendam</div>
+                                <div class="sub-judul" style="width: 70%">Pemasangan dan pembenahan paving di area berendam</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-48.jpg" data-fancybox="images">
@@ -165,7 +165,7 @@
                                         <img src="../images/berita/img-49.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Penambahan tinggi tembok dan pemlesteran kolam berendam khusus wanita</div>
+                                <div class="sub-judul" style="width: 70%">Penambahan tinggi tembok dan pemlesteran kolam berendam khusus wanita</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-50.jpg" data-fancybox="images">
@@ -178,7 +178,7 @@
                                         <img src="../images/berita/img-51.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Kolam berendam khusus wanita yang telah dibenahi sehingga lebih indah, aman dan nyaman</div>
+                                <div class="sub-judul" style="width: 70%">Kolam berendam khusus wanita yang telah dibenahi sehingga lebih indah, aman dan nyaman</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-52.jpg" data-fancybox="images">
@@ -201,7 +201,7 @@
                                         <img src="../images/berita/img-55.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Spot swafoto baru berlatar belakang air terjun kecil</div>
+                                <div class="sub-judul" style="width: 70%">Spot swafoto baru berlatar belakang air terjun kecil</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-56.jpg" data-fancybox="images">
@@ -209,36 +209,36 @@
                                         <img src="../images/berita/img-56.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Spot swafoto baru dekat kolam berendam</div>
+                                <div class="sub-judul" style="width: 70%">Spot swafoto baru dekat kolam berendam</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-57.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="width: 60%; margin-bottom: 10px">
+                                    <span class="img-berita" style="width: 80%; margin-bottom: 10px">
                                         <img src="../images/berita/img-57.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Gazebo yang nyaman untuk bersantai bersama keluarga</div>
+                                <div class="sub-judul" style="width: 70%">Gazebo yang nyaman untuk bersantai bersama keluarga</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-58.jpg" data-fancybox="images">
-                                    <span class="img-berita" style="width: 60%; margin-bottom: 10px">
+                                    <span class="img-berita" style="width: 80%; margin-bottom: 10px">
                                         <img src="../images/berita/img-58.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul" style="max-width: 50%">Tempat berteduh yang nyaman dan asri untuk menikmati pemandangan sambil menunggu keluarga yang sedang berendam atau berenang</div>
+                                <div class="sub-judul" style="max-width: 70%">Tempat berteduh yang nyaman dan asri untuk menikmati pemandangan sambil menunggu keluarga yang sedang berendam atau berenang</div>
                             </p>
                             <p class="blog-details__text">
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-59.jpg" data-fancybox="images">
-                                    <span class="img-berita" style=" width: 60%; margin: 5px auto; display: block;">
+                                    <span class="img-berita" style=" width: 80%; margin: 5px auto; display: block;">
                                         <img src="../images/berita/img-59.jpg" alt="image description">
                                     </span>
                                 </a>
                                 <a class="fancybox" data-fancybox-group="group" href="../images/berita/img-60.jpg" data-fancybox="images">
-                                    <span class="img-berita" style=" width: 60%; margin: 5px auto; display: block;">
+                                    <span class="img-berita" style=" width: 80%; margin: 5px auto; display: block;">
                                         <img src="../images/berita/img-60.jpg" alt="image description">
                                     </span>
                                 </a>
-                                <div class="sub-judul">Bekas sangkar burung yang telah dibenahi dan akan digunakan sebagai kafe</div>
+                                <div class="sub-judul" style="max-width: 70%">Bekas sangkar burung yang telah dibenahi dan akan digunakan sebagai kafe</div>
                             </p>
 
                             <br>
