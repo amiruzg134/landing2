@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-14.jpg" alt="Awesome Image" />
-                                <div class="sub-judul">Petugas tengah berupaya memadamkan api yang membakar tumpukan daun cemara pada Blok Gentong Growah, Gunung Arjuno, Kecamatan Bumiaji, Kota Batu, Jawa Timur. (FOTO ANTARA/HO-UPT Taman Hutan Raya Raden Soerjo)</div>
-                                <div class="blog-details__date">29 Juli 2019</div>
-                            </div>
+                            <div class="blog-details__date">29 Juli 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Berhasil Dipadamkan Kebakaran di Lereng Gunung Arjuno</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-14.jpg" alt="Awesome Image" />
+                                <div class="sub-judul">Petugas tengah berupaya memadamkan api yang membakar tumpukan daun cemara pada Blok Gentong Growah, Gunung Arjuno, Kecamatan Bumiaji, Kota Batu, Jawa Timur. (FOTO ANTARA/HO-UPT Taman Hutan Raya Raden Soerjo)</div>
+                            </div>
                             <blockquote class="blockuot">
                                "Kami akan sisir usai kebakaran. Untuk bara api, berdasarkan pertimbangan tim, kondisi sudah aman dan dipastikan yang terbakar adalah lantai hutan dengan serasah daun cemara kering"
                             </blockquote>

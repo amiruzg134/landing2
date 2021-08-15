@@ -69,14 +69,14 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-33.jpg" alt="Awesome Image" />
-                                <div class="blog-details__date">28 Maret 2020</div>
-                            </div>
+                            <div class="blog-details__date">28 Maret 2020</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Paok pancawarna <i>(Pitta guajana)</i></h3>
+                            <div class="blog-details__image" style="margin-bottom: 30px;">
+                                <img src="../images/berita/img-33.jpg" alt="Awesome Image" />
+                            </div>
                             <p class="blog-details__text">
                                 Paok pancawarna (bahasa Latin: <i>Pitta guajana</i>) adalah spesies burung dari keluarga Pittidae, dari genus Pitta. Burung ini merupakan jenis burung pemakan semut, kecoa, kumbang, siput, cacing, rayap, ula yang memiliki habitat di hutan primer, hutan sekunder tertutup, tersebar sampai ketinggian 1.500 m dpl. Di kawasan Tahura Raden Soerjo, burung ini bisa ditemui di blok sendi, blok lemah bang, dan blok cangar. Burung pok hijau pada umumnya hidup pada hutan yang mempunyai kelembaban yang baik. Dengan demikian, burung ini sangat menyukai hutan basah untuk dijadikan sebagai tempat tinggalnya seperti pada kawasan Tahura Raden Soerjo.
                             </p>

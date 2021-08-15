@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-17.jpg" alt="Awesome Image" />
-                                <div class="sub-judul">Gunung Arjuno, Jawa Timur, dari kejauhan. (FOTO ANTARA/HO-BPBD Kota Batu)</div>
-                                <div class="blog-details__date">7 Agustus 2019</div>
-                            </div>
+                            <div class="blog-details__date">7 Agustus 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Sudah Dicabut Status Tanggap Darurat Kebakaran Gunung Arjuno</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-17.jpg" alt="Awesome Image" />
+                                <div class="sub-judul">Gunung Arjuno, Jawa Timur, dari kejauhan. (FOTO ANTARA/HO-BPBD Kota Batu)</div>
+                            </div>
                             <blockquote class="blockuot">
                                "Penandatanganan pencabutan level tanggap darurat kebakaran Gunung Arjuno sudah dilakukan oleh Wali Kota Batu, api sudah padam"
                             </blockquote>

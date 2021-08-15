@@ -69,14 +69,14 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-08.jpg" alt="Awesome Image" />
-                                <div class="blog-details__date">18 Juli 2019</div>
-                            </div>
+                            <div class="blog-details__date">18 Juli 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Penemuan Jejak Macan Tutul Di Cangar</h3>
+                            <div class="blog-details__image" style="margin-bottom:30px">
+                                <img src="../images/berita/img-08.jpg" alt="Awesome Image" />
+                            </div>
                             <p class="blog-details__text">
                                 Tim Patroli Objek Wisata Alam Cangar menemukan jejak hewan yang diduga merupakan macan tutul jawa di daerah Pemandian Air Panas Cangar, Sumber Brantas, Bumiaji, Kota Batu. Jejak macan tutul tersebut ditemukan saat petugas dari UPT Taman Hutan Raya R. Soerjo sedang berpatroli. (16/07/2019).
                             </p>

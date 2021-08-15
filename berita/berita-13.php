@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-01.jpg" alt="Awesome Image" />
-                                <div class="sub-judul">Kabid Humas Polda Jatim Kombes Pol Frans Barung Mangera (Foto: Liputan6.com/Dian Kurniawan)</div>
-                                <div class="blog-details__date">16 Desember 2019</div>
-                            </div>
+                            <div class="blog-details__date">16 Desember 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">8 Anggota Brimob Polda Jatim Tersambar Petir Di Puncak Gunung Ringgit</h3>
+                            <div class="blog-details__image" style="margin-bottom:30px">
+                                <img src="../images/berita/img-01.jpg" alt="Awesome Image" />
+                                <div class="sub-judul">Kabid Humas Polda Jatim Kombes Pol Frans Barung Mangera (Foto: Liputan6.com/Dian Kurniawan)</div>
+                            </div>
                             <p class="blog-details__text">
                                 Liputan6.com, Surabaya - Delapan anggota Pusat Pendidikan Korps Brimob (Pusdik Brimob) Watukosek, Gempol, Pasuruan, Jawa Timur, tersambar petir saat melaksanakan kegiatan di Gunung Ringgit, Prigen, Kabupaten Pasuruan dan Gunung Welirang.
                             </p>

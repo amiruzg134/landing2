@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-07.jpg" alt="Awesome Image" />
-                                <div class="sub-judul">Kepala Seksi Perencanaan, Pengembangan, dan Pemanfaatan UPT Taman Hutan Raya Raden Soerjo Dinas Kehutanan Provinsi Jawa Timur, Asep Kusdinar. ANTARA/Vicki Febrianto/aa</div>
-                                <div class="blog-details__date">08 Juli 2019</div>
-                            </div>
+                            <div class="blog-details__date">08 Juli 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Perangi Sampah, Tahura Raden Soerjo Terjunkan Tim "Saber"</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-07.jpg" alt="Awesome Image" />
+                                <div class="sub-judul">Kepala Seksi Perencanaan, Pengembangan, dan Pemanfaatan UPT Taman Hutan Raya Raden Soerjo Dinas Kehutanan Provinsi Jawa Timur, Asep Kusdinar. ANTARA/Vicki Febrianto/aa</div>
+                            </div>
                             <blockquote class="blockuot">
                                 "Gunung Arjuno telah ditetapkan sebagai Cagar Biosfer oleh The United Nations Educational, Scientific, and Cultural Organization (UNESCO) pada 2015, bersama Gunung Bromo dan Gunung Semeru. Sehingga, kebersihan dan terpeliharanya ekosistem di Gunung Arjuno."
                             </blockquote>

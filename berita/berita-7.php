@@ -69,14 +69,14 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-16.jpg" alt="Awesome Image" />
-                                <div class="blog-details__date">5 Agustus 2019</div>
-                            </div>
+                            <div class="blog-details__date">5 Agustus 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Siaran Radio 911 FM City Guide Bersama BPBD Kota Batu, LSM Lingkungan.</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-16.jpg" alt="Awesome Image" />
+                            </div>
                             <blockquote class="blockuot">
                                "Hutan dan Gunung Pengayom Kita Darurat Terhadap Bencana Kebakaran dan Waspada Penghujan Mendatang Ratusan Hektar Gersang. Kita Jaga Alam, Alam Jaga Kita"
                             </blockquote>

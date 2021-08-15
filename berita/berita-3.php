@@ -69,14 +69,14 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/mantra/1.png" alt="Awesome Image" />
-                                <div class="blog-details__date">19 Juli 2019</div>
-                            </div>
+                            <div class="blog-details__date">19 Juli 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Mantra Summit Challenge</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/mantra/1.png" alt="Awesome Image" />
+                            </div>
                             <p class="blog-details__text">
                                 Mantra Summits Challenge 2019 (Mantra Summits 2019)™ adalah perhelatan lomba lari lintas alam ketiga yang diselenggarakan oleh Malang Trail Runners (Mantra Runners). Kegiatan ini diselenggarakan oleh Mantra Runners yang berkerjasama dengan Tahura R. Sorejo sebagai lintasan dan Kaliandra Eco Resort sebagai venue lomba dan start/finish.
                             </p>

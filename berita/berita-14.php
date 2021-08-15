@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-23.png" alt="Awesome Image" />
-                                <div class="sub-judul">Dok. Ditemukan di Blok Sendi ketinggian 1200 mdpl</div>
-                                <div class="blog-details__date">19 Februari 2020</div>
-                            </div>
+                            <div class="blog-details__date">19 Februari 2020</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Burung Pelanduk Bukit dan Habitatnya di Tahura Raden Soerjo</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-23.png" alt="Awesome Image" />
+                                <div class="sub-judul">Dok. Ditemukan di Blok Sendi ketinggian 1200 mdpl</div>
+                            </div>
                             <blockquote class="blockuot">
                                 Alam Taman Hutan Raya Raden Soerjo memiliki burung kicauan jumlah yang cukup banyak. Namun, sangat banyak juga jenis burung kicauan yang belum diketahui banyak orang.
                             </blockquote>

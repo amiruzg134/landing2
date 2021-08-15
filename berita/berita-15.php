@@ -69,14 +69,14 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-24.jpeg" alt="Awesome Image" />
-                                <div class="blog-details__date">26 Februari 2020</div>
-                            </div>
+                            <div class="blog-details__date">26 Februari 2020</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Penebaran Benih Dengan Metode Seed Ball</h3>
+                            <div class="blog-details__image">
+                                <img src="../images/berita/img-24.jpeg" alt="Awesome Image" />
+                            </div>
                             <p class="blog-details__text">
                                 Penebaran Benih Dengan Metode Seed Ball dalam rangka rehabilitasi hutan di Gunung Watujengger, Kabupaten Mojokerto Tahura Raden Soerjo. Pembuatan seedball dilakukan oleh pihak Tahura Raden Soerjo dan penebarannya dilakukan oleh pencinta alam yang sedang mendaki gunung.
                             </p>

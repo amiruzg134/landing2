@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-04.jpeg" alt="Awesome Image" />
-                                <div class="sub-judul">MEMBARA: Petugas Pamhut Tahura R. Soerjo memadamkan api di hutan lereng Gunung Arjuno blok Sawahan Kesek, Desa Jatiarjo, Kecamatan Prigen. (Foto: UPT. Tahura R. Soerjo)</div>
-                                <div class="blog-details__date">19 Agustus 2019</div>
-                            </div>
+                            <div class="blog-details__date">19 Agustus 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Hutan Lereng Arjuno di Jatiarjo Prigen Kembali Terbakar</h3>
+                            <div class="blog-details__image" style="margin-bottom:30px">
+                                <img src="../images/berita/img-04.jpeg" alt="Awesome Image" />
+                                <div class="sub-judul"><i>MEMBARA: Petugas Pamhut Tahura R. Soerjo memadamkan api di hutan lereng Gunung Arjuno blok Sawahan Kesek, Desa Jatiarjo, Kecamatan Prigen. (Foto: UPT. Tahura R. Soerjo)<i></div>
+                            </div>
                             <p class="blog-details__text">
                                 PRIGEN, Radar Bromo–Kebakaran hutan kembali terjadi di wilayah Tahura R. Soerdjo. Kali ini giliran di lereng Gunung Arjuno, tepatnya di blok Sawahan Sesek, Desa Jatiarjo, Kecamatan Prigen, Kabupaten Pasuruan yang dilalap api.
                             </p>

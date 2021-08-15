@@ -69,15 +69,15 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog-details__content">
-                            <div class="blog-details__image">
-                                <img src="../images/berita/img-09.jpg" alt="Awesome Image" />
-                                <div class="sub-judul">Foto bersama beberapa anggota tim yang mendaki Gunung Welirang</div>
-                                <div class="blog-details__date">29 Juli 2019</div>
-                            </div>
+                            <div class="blog-details__date">29 Juli 2019</div>
                             <div class="blog-details__meta">
                                 <a href="#" class="blog-details__meta-link">By Admin</a>
                             </div>
                             <h3 class="blog-details__title">Menuju Puncak Welirang</h3>
+                            <div class="blog-details__image" style="margin-bottom:30px">
+                                <img src="../images/berita/img-09.jpg" alt="Awesome Image" />
+                                <div class="sub-judul"><i>Foto bersama beberapa anggota tim yang mendaki Gunung Welirang</i></div>
+                            </div>
                             <p class="blog-details__text">
                                 Selasa 25 Juni 2019, dalam rangka kegiatan monitoring di area hutan gunung welirang, kami dari tim UPT Tahura R. Soerjo berangkat ke lokasi pada pagi hari sekitar pukul 6 pagi. Tim terdiri dari Asep Kusdinar beserta putranya, Hery Bantara, Lesmana, dan Gayuh. Perjalanan memakan waktu kurang lebih satu jam, dan kami tiba di lokasi pada pukul 7.15. Disana kami bersiap-siap dengan barang bawaan dan kendaraan yang akan dinaiki. Tim dan beberapa anggota lapang seperti Junaedi dan Riwayana yang mendampingi perjalanan di area Gunung Welirang menggunakan jip untuk melintasi pos pet bocor, pos kokopan, dan terakhir pos pondokan.
                             </p>
