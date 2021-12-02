@@ -239,7 +239,7 @@ hr.style-one {
   right: 15px;
 }
 .header-navigation .main-navigation {
-  float: none;
+  float: right;
   text-align: center;
 }
 @media (min-width: 1200px) {
