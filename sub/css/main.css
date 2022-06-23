@@ -10321,6 +10321,7 @@ blockquote.normal {
 #header.fixed-position .logo {
 	padding-top: 22px;
 	padding-bottom: 22px;
+	height: 70px;
 }
 
 .logo {
@@ -11672,7 +11673,8 @@ h4,
 
 .logo {
 	width: 240px;
-	padding: 32px 15px 38px 0;
+    height: 102px;
+    padding: 0 15px 0 0;
 }
 
 .header-v2 .navbar-default .nav-center {
