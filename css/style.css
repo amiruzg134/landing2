@@ -3212,3 +3212,12 @@ img {
   text-align: center;
   padding: 30px 0
 }
+
+@media only screen and (max-width: 575px) {
+  .banner-one__btn {
+    margin-bottom: 50px;
+  }
+  #client{
+    margin-top: 100px;
+  }
+}
