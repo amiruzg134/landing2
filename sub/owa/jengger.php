@@ -1,7 +1,3 @@
-<?php
-    include '../../config.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bukit Watu Jengger - Tahura Raden Soerjo</title>
     <!-- favion -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../../images/logos/logo-tahura.png">
+    <link rel="shortcut icon" sizes="196x196" href="../../images/logos/logo.ico">
     <!-- link to font awesome -->
     <link media="all" rel="stylesheet" href="../vendors/font-awesome/css/all.css">
     <!-- link to material icon font -->
@@ -110,21 +106,16 @@
 									<p>Bukit Watu Jengger dengan ketinggian 1100 mdpl sangat mungkin untuk menjadi destinasi alternatif pendakian maupun camping setelah gunung penanggungan dan gunung pundak, dan juga sangat recommended buat para pendaki pemula karena medan yang gak terlalu curam </p>
 								</div>
 								<ul class="reviews-info">
-									<li style="width: 100%">
-										<div class="info-left">
-											<strong class="title">Ulasan</strong>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(id_nilai) as jumlah FROM rating WHERE via = '$_GET[via]' ")); echo $sql["jumlah"];?> Ulasan</span>
-										</div>
-										<div class="info-right">
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT ROUND(AVG(nilai), 2) as nilai FROM rating WHERE via = '$_GET[via]' ")); echo $sql["nilai"];?> / 5</span>
-										</div>
-                                    </li>
                                     <li style="width: 100%">
                                     	<div class="info-left" style="width: 100%">
-											<strong class="title">Harga Tiket Masuk</strong>
+											<strong class="title">Harga Tiket</strong>
 											<ul>
-												<li>Wisatawan Lokal : Rp. 11.000 / orang</li>
-												<li>Wisatawan mancanegara : Rp. - / orang</li>
+												<li><strong>Wisatawan Nusantara : </strong>
+													<p>Rp. 11.000,- / Orang / Hari <small>(Karcis Rp. 10.000 + Asuransi Rp. 1.000)</small></p>
+												</li>
+												<li><strong>Wisatawan Mancanegara :</strong>
+													<p>Rp. 201.000,- / Orang / Hari <small>(Karcis Rp. 200.000 + Asuransi Rp. 1.000)</small></p>
+												</li>
 											</ul>
 										</div>
                                     </li>
@@ -132,7 +123,7 @@
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Jam Operasional</strong>
 											<ul>
-												<li>Senin - Minggu : 08.00 - 16.00 WIB</li>
+												<li>Senin - Minggu : 07.00 - 17.00 WIB</li>
 											</ul>
 										</div>
                                     </li>
@@ -150,7 +141,6 @@
 								<!-- <li role="presentation"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Pesona Wisata</a></li> -->
 								<li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Lokasi</a></li>
 								<li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Galeri</a></li>
-								<li role="presentation"><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Ulasan</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -363,8 +353,8 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>JAM OPERASIONAL</h3>
 						<ul class="slide">
-							<li>Senin - Kamis, 07.00 - 15.30</li>
-							<li>Jumat, 07.00 - 14.30</li>
+							<li>Senin - Kamis : 08.00 - 16.00</li>
+							<li>Jumat : 07.30 - 16.00</li>
 						</ul>
 					</nav>
 					<nav class="col-sm-4 col-lg-3 footer-nav">
@@ -377,7 +367,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>WEBSITE</h3>
 						<ul class="slide">
-							<li><a href="https://tahuraradensoerjo.or.id">www.tahuraradensoerjo.or.id</a></li>
+							<li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id">tahurarsoerjo.dishut.jatimprov.go.id</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -408,7 +398,7 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<!-- copyright -->
-							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2020 - UPT Tahura Raden Soerjo - by Amiruzzuhhad Gunes</strong>
+							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2022 - UPT Tahura Raden Soerjo - by Amiruzzuhhad Gunes</strong>
 						</div>
 					</div>
 				</div>

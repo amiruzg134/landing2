@@ -1,7 +1,3 @@
-<?php
-    include '../../config.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Air Panas Cangar - Tahura Raden Soerjo</title>
     <!-- favion -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../../images/logos/logo-tahura.png">
+    <link rel="shortcut icon" sizes="196x196" href="../../images/logos/logo.ico">
     <!-- link to font awesome -->
     <link media="all" rel="stylesheet" href="../vendors/font-awesome/css/all.css">
     <!-- link to material icon font -->
@@ -108,24 +104,16 @@
 								<h1 class="small-size">Objek Wisata Alam Air Panas Cangar</h1>
 
 								<div class="description">
-									<p>Air Panas Cangar merupakan tempat objek wisata alam berupa pemandian air panas alami yang berasal dari gunung Welirang</p>
+									<p>Pemandian air panas ini merupakan objek wisata unggulan di OWA Cangar. Daya tarik utama berupa air panas alami yang bersumber dari kaki gunung Welirang yang masih aktif, tidak berbau belerang dengan suhu sekitar 35°-45°. Objek wisata ini sangat digemari oleh wisatawan domestik maupun mancanegara karena dipercaya apabila berendam dapat menyembuhkan berbagai penyakit, seperti stroke, penyakit kulit, asma, dll. Landscape objek ini cenderung landai dan pemandangannya sangat indah dan alami karena adanya tutupan berbagai vegetasi khas pegunungan yang rapat sehingga udaranya sangat sejuk. Selain itu, komplek kolam pemandian air panas ini mempunyai taman bermain yang menarik untuk anak-anak.</p>
 								</div>
 								<ul class="reviews-info">
-									<li style="width: 100%">
-										<div class="info-left">
-											<strong class="title">Ulasan</strong>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(id_nilai) as jumlah FROM rating WHERE via = '$_GET[via]' ")); echo $sql["jumlah"];?> Ulasan</span>
-										</div>
-										<div class="info-right">
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT ROUND(AVG(nilai), 2) as nilai FROM rating WHERE via = '$_GET[via]' ")); echo $sql["nilai"];?> / 5</span>
-										</div>
-                                    </li>
                                     <li style="width: 100%">
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Harga Tiket Masuk</strong>
 											<ul>
-												<li>Wisatawan Lokal : Rp. 11.000 / orang</li>
-												<li>Wisatawan mancanegara : Rp. - / orang</li>
+												<li>Wisatawan lokal : Rp. 15.000 / orang <small>( + asuransi Rp. 1.000 )</small></li>
+												<li>Wisatawan mancanegara : Rp. 50.000 / orang <small>( + asuransi Rp. 1.000 )</small></li>
+												<li>Kolam rendam VIP : Rp. 100.000 / jam </li>
 												<li>Parkir mobil : Rp. 5.000 </li>
 												<li>Parkir motor : Rp. 3.000</li>
 											</ul>
@@ -135,7 +123,8 @@
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Jam Operasional</strong>
 											<ul>
-												<li>Senin - Minggu : 08.00 - 16.00 WIB</li>
+												<li>Senin - Minggu : 08.00 - 15.00 WIB</li>
+												<li>Jumat : TUTUP </li>
 											</ul>
 										</div>
                                     </li>
@@ -153,37 +142,36 @@
 								<li role="presentation"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Pesona Wisata</a></li>
 								<li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Lokasi</a></li>
 								<li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Galeri</a></li>
-								<li role="presentation"><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Ulasan</a></li>
 							</ul>
 						</div>
 					</nav>
 
 					<!-- tab panes -->
 					<div class="container tab-content trip-detail">
-						<!-- Jalur tab content -->
+						<!-- PESONA WISATA -->
 						<div role="tabpanel" class="tab-pane" id="tab01">
 							<div class="row">
 								<div class="col-md-12">
 									<ol class="detail-accordion">
 										<li>
 											<a href="#">
-												<strong class="title">PEMANDIAN AIR PANAS</strong>
+												<strong class="title">KOLAM RENDAM VIP</strong>
 												<span>&nbsp;</span>
 											</a>
 											<div class="slide">
 												<div class="slide-holder">
-													<p>Pemandian air panas ini merupakan objek wisata unggulan di OWA Cangar. Daya tarik utama berupa air panas alami yang bersumber dari kaki gunung Welirang yang masih aktif, tidak berbau belerang dengan suhu sekitar 35°-45°. Objek wisata ini sangat digemari oleh wisatawan domestik maupun mancanegara karena dipercaya apabila berendam dapat menyembuhkan berbagai penyakit, seperti stroke, penyakit kulit, asma, dll. Landscape objek ini cenderung landai dan pemandangannya sangat indah dan alami karena adanya tutupan berbagai vegetasi khas pegunungan yang rapat sehingga udaranya sangat sejuk. Selain itu, komplek kolam pemandian air panas ini mempunyai taman bermain yang menarik untuk anak-anak.</p>
+													<p>Kolam rendam VIP merupakan spot ikonik yang berada di pemandian Air Panas Cangar. Spot ini diresmikan pada januari 2022 dan terdapat 7 kamar rendam private yang tiap ruangnya dapat menampung maksimal 5 orang sekaligus.</p>
 												</div>
 											</div>
 										</li>
 										<li>
 											<a href="#">
-												<strong class="title">KAMAR BERENDAM</strong>
+												<strong class="title">KOLAM RENDAM</strong>
 												<span>&nbsp;</span>
 											</a>
 											<div class="slide">
 												<div class="slide-holder">
-													<p>Terdapat tiga kamar berendam air panas alami, untuk menikmati berendam air panas alami di kamar ini, harus membayar tiket masuk per orang di luar tiket masuk gerbang utama OWA Cangar. Tiket untuk kamar ini paling mahal di banding kolam lainnya, karena di sini akan menikmati air panas dengan temperatur lebih kurang 42.5° dan kecepatan pengeluaran air panas sangat deras.</p>
+													<p>Terdapat tiga macam kolam berendam air panas alami, yaitu kolam rendam dewasa, kolam rendam anak, dan kolam rendam khusus wanita.</p>
 												</div>
 											</div>
 										</li>
@@ -280,7 +268,7 @@
 							</div>
 						</div>
 
-						<!-- Map tab content -->
+						<!-- MAP -->
 						<div role="tabpanel" class="tab-pane" id="tab02">
 							<div class="row">
 								<div class="col-md-12">
@@ -297,7 +285,7 @@
 							</div>
 						</div>
 
-						<!-- gallery tab content -->
+						<!-- GALLERY -->
 						<div role="tabpanel" class="tab-pane" id="tab03">
 							<ul class="row gallery-list has-center">
 								<li class="col-sm-6">
@@ -423,70 +411,7 @@
 							</ul>
 						</div>
 
-						<!-- faq and review tab content -->
-						<div role="tabpanel" class="tab-pane" id="tab04">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="header-box">
-										<span class="rate-left">
-											<strong class="title">Rating</strong>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT ROUND(AVG(nilai), 2) as nilai FROM rating WHERE via = '$_GET[via]' ")); echo $sql["nilai"];?> / 5</span>
-										</span>
-									</div>
-								</div>
-								<div class="col-md-7" style="margin-bottom: 20px">
-									<div class="comments reviews-body" style="max-height: 600px; overflow: auto;">
-										<div class="tampildata"></div>
-									</div>
-								</div>
-								<div class="col-md-5">
-									<div class="header-box" >
-										<div class="alert alert-success alert-dismissible" id="success" style="display:none;">
-										  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-										</div>
-										<form method="post" class="form-user" action = "" id="form-user">
-											<input type="text" name="via" id="via" hidden value=<?php echo $_GET['via'] ?>>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Nama</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="text" class="form-control" id="namaUlasan" name="namaUlasan" required>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Email</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="email" class="form-control" id="emailUlasan" name="emailUlasan" required>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Ulasan</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<textarea rows="5" class="form-control" id="ulasan" name="ulasan" required></textarea>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Nilai</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="text" class="js-range-slider" value="" />
-												<input type="hidden" class="js-input-from form-control" value="0" id="slider" />
-											</div>
-											<a class="btn btn-default tombol-simpan" style="float: right; padding: 10px; margin: 30px 0 0 0" id="simpan"> KIRIM </a>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- kontak tab content -->
+						<!-- GAMBARAN -->
 						<div role="tabpanel" class="tab-pane active" id="tab05">
 							<div class="row">
 								<div class="col-md-12">
@@ -523,8 +448,8 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>JAM OPERASIONAL</h3>
 						<ul class="slide">
-							<li>Senin - Kamis, 07.00 - 15.30</li>
-							<li>Jumat, 07.00 - 14.30</li>
+							<li>Senin - Kamis : 08.00 - 16.00</li>
+							<li>Jumat : 07.30 - 16.00</li>
 						</ul>
 					</nav>
 					<nav class="col-sm-4 col-lg-3 footer-nav">
@@ -537,7 +462,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>WEBSITE</h3>
 						<ul class="slide">
-							<li><a href="https://tahuraradensoerjo.or.id">www.tahuraradensoerjo.or.id</a></li>
+							<li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id">tahurarsoerjo.dishut.jatimprov.go.id</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -568,7 +493,7 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<!-- copyright -->
-							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2020 - UPT Tahura Raden Soerjo - by Amiruzzuhhad Gunes</strong>
+							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2022 - UPT Tahura Raden Soerjo - by Amiruzzuhhad Gunes</strong>
 						</div>
 					</div>
 				</div>
