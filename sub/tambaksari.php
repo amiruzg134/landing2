@@ -193,7 +193,7 @@
 									</li>
 								</ul>
 								<div class="btn-holder">
-									<a target="_blank" href="https://sipenerang.tahuraradensoerjo.or.id" class="btn btn-lg btn-info">REGISTRASI</a>
+									<a target="_blank" href="https://tahurarsoerjo.dishut.jatimprov.go.id/sipenerang" class="btn btn-lg btn-info">Booking</a>
 								</div>
 							</div>
 						</div>
@@ -644,8 +644,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>JAM OPERASIONAL</h3>
 						<ul class="slide">
-							<li>Senin - Kamis, 07.00 - 15.30</li>
-							<li>Jumat, 07.00 - 14.30</li>
+							<li>Senin - Jumat, 08.00 - 16.00</li>
 						</ul>
 					</nav>
 					<nav class="col-sm-4 col-lg-3 footer-nav">
@@ -658,7 +657,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>WEBSITE</h3>
 						<ul class="slide">
-							<li><a href="https://tahuraradensoerjo.or.id">www.tahuraradensoerjo.or.id</a></li>
+							<li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id/sipenerang">https://tahurarsoerjo.dishut.jatimprov.go.id/sipenerang</a></li>
 						</ul>
 					</nav>
 				</div>

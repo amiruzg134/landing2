@@ -123,7 +123,7 @@
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Jam Operasional</strong>
 											<ul>
-												<li>Senin - Minggu : 07.00 - 17.00 WIB</li>
+												<li>Senin - Minggu : 08.00 - 16.00 WIB</li>
 											</ul>
 										</div>
                                     </li>
@@ -353,8 +353,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>JAM OPERASIONAL</h3>
 						<ul class="slide">
-							<li>Senin - Kamis : 08.00 - 16.00</li>
-							<li>Jumat : 07.30 - 16.00</li>
+							<li>Senin - Jumat, 08.00 - 16.00</li>
 						</ul>
 					</nav>
 					<nav class="col-sm-4 col-lg-3 footer-nav">

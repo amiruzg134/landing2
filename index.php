@@ -720,8 +720,7 @@
                                     Jam Operasional
                                 </h3>
                                 <ul class="footer-widget__link-list">
-                                    <li>Senin - Kamis, 07.00 - 15.30</li>
-                                    <li>Jumat, 07.00 - 14.30</li>
+                                    <li>Senin - Jumat, 08.00 - 16.00</li>
                                 </ul>
                             </div>
                         </div>

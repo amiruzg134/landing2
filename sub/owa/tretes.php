@@ -414,8 +414,7 @@
 					<nav class="col-sm-4 col-lg-3 footer-nav">
 						<h3>JAM OPERASIONAL</h3>
 						<ul class="slide">
-							<li>Senin - Kamis : 08.00 - 16.00</li>
-							<li>Jumat : 07.30 - 16.00</li>
+							<li>Senin - Jumat, 08.00 - 16.00</li>
 						</ul>
 					</nav>
 					<nav class="col-sm-4 col-lg-3 footer-nav">
