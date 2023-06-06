@@ -19,10 +19,12 @@
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <link id="pagestyle" href="./assets/css/material-kit-pro.min.css?v=3.0.2" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/sweetalert2.min.css">
 </head>
 
 <body class="case-study bg-gray-200">
 
+  <!-- HEADER -->
   <div class="page-header min-vh-85">
     <div class="position-absolute fixed-top ms-auto w-75 h-75 border-radius-xl z-index-1 d-none d-sm-none d-md-block me-n4" style="background-image: url(assets/img/banner.jpg); background-size: cover;">
       <span class="mask bg-gradient-dark opacity-7"></span>
@@ -56,7 +58,7 @@
   <!-- <header>
     <div class="page-header min-vh-85">
       <div>
-        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/ss.jpg" alt="image" loading="lazy">
+        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/banner.jpg" alt="image" loading="lazy">
       </div>
       <div class="container">
         <div class="row">
@@ -85,55 +87,63 @@
     </div>
   </header> -->
 
-<section class="py-5">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-3 position-relative max-width-300 ms-auto">
-        <div class="blur-shadow-image">
-          <img class="w-100 h-100 border-radius-xl position-absolute d-xl-block d-none"
-            src="assets/img/xbanner.jpg" alt="image">
+  <!-- BANNER -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mt-2">
+          <div class="card ">
+            <div class="full-background">
+              <img src="assets/img/pengaduan.jpg" class="w-100">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2">
+          <div class="card ">
+            <div class="full-background">
+              <img src="assets/img/layanan.jpg" class="w-100">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2">
+          <div class="card ">
+            <div class="full-background">
+              <img src="assets/img/sop.jpg" class="w-100">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-2">
+          <div class="card ">
+            <div class="full-background">
+              <img src="assets/img/gratifikasi.jpg" class="w-100">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-lg-8 ms-auto">
-        <div class="row">
-          <div class="col-7">
-            <div class="p-3 text-start border-radius-lg">
-              <h2 class="mt-5">Material Design Values</h2>
-              <p class="text-dark text-lg mt-3">
-                <span class="font-weight-bold">The time</span>
-                is now for it to be okay to be great. People in this world shun people for being great.
-                For being a bright color.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3 col-md-4 py-3">
-            <div class="p-3 text-start">
-              <i class="material-icons text-4xl text-gradient text-info">spa</i>
-              <h5 class="mt-3">Give your best</h5>
-              <p>Creativity starts with an empty calendar and ends with a full one.</p>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-4 py-3">
-            <div class="p-3 text-start">
-              <i class="material-icons text-4xl text-gradient text-info">school</i>
-              <h5 class="mt-3">Learn new things</h5>
-              <p>We get insulted by others, lose trust for those We get back.</p>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-4 py-3">
-            <div class="p-3 text-start">
-              <i class="material-icons text-4xl text-gradient text-info">emoji_people</i>
-              <h5 class="mt-3">Never give up</h5>
-              <p>When playing, surround yourself with people happier than you.</p>
+      <div class="row ">
+        <div class="col-lg-12 mt-3">
+          <div class="card ">
+            <div class="full-background">
+              <img src="assets/img/zi.jpg" class="w-100">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- VIDEO -->
+  <section class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/qSPTVh763OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="border-radius-lg"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
   <section class="mt-7">
     <div class="container">
       <div class="row">
@@ -265,7 +275,7 @@
     </div>
   </section>
 
-  <section class="bg-gradient-dark position-relative overflow-hidden py-4 mt-7">
+  <!-- <section class="bg-gradient-dark position-relative overflow-hidden py-4 mt-7">
     <div id="carouselExampleIndicators" class="carousel slide pt-5 pb-10" data-bs-ride="carousel">
       <ol class="carousel-indicators pb-7">
         <a href="javascript:;">
@@ -403,9 +413,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="py-5">
+  <!-- BUDAYA KERJA -->
+  <section class="mt-7">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto text-center">
@@ -447,7 +458,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-6 mb-lg-0 mb-4 mt-3">
+        <div class="col-lg-4 col-12 mb-lg-0 mb-4 mt-3">
           <div class="card shadow-lg">
             <div class="card-header mt-n4 mx-3 p-0 bg-transparent position-relative z-index-2">
               <a class="d-block blur-shadow-image">
@@ -466,7 +477,8 @@
     </div>
   </section>
 
-  <section class="py-5">
+  <!-- PELAYANAN -->
+  <section class="mt-7">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto text-center">
@@ -514,32 +526,12 @@
     </div>
   </section>
 
-  <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
-            <i class="material-icons opacity-10">image</i>
-          </div>
-          <h2 class="text-dark mb-0 mt-3">Dokumentasi</h2>
-          <h6 class="text-gradient text-warning">UPT Tahura Raden Soerjo</h6>
-        </div>
-      </div>
-      <div class="row text-center mt-5">
-        <div class="col-lg-12 col-6 mt-3">
-          
-            <iframe width="350" height="315" src="https://www.youtube.com/embed/qSPTVh763OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="border-radius-lg"></iframe>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- SURVEY -->
   <div class="container">
     <div class="my-10 py-5 bg-gradient-dark position-relative border-radius-xl" style="background-image:url('https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')" loading="lazy">
       <div class="container position-relative z-index-2">
         <div class="row">
-          <div class="col-lg-5 col-md-8 m-auto text-start">
+          <div class="col-lg-5 col-md-8 m-auto text-center">
             <h5 class="text-white mb-lg-0 mb-5"> ISI SURVEY KEPUASAN MASYARAKAT </h5>
           </div>
           <div class="col-lg-6 m-auto">
@@ -554,6 +546,7 @@
     </div>
   </div>
 
+  <!-- FOOTER -->
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6 mb-4">
     <div class="container">
       <div class="row mt-sm-0 mt-5">
@@ -595,13 +588,13 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="card card-plain">
-              <form id="contact-form" method="post" autocomplete="off">
+              <form id="wa" method="post" autocomplete="off">
                 <div class="card-body">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="input-group input-group-static mb-4">
                         <label>Nama</label>
-                        <input type="text" class="form-control" placeholder="Nama">
+                        <input type="text" class="form-control" placeholder="Nama" name="nama">
                         <span class="input-group-text">
                           <i class="material-icons">person</i>
                         </span>
@@ -610,7 +603,7 @@
                     <div class="col-md-6 ps-md-2">
                       <div class="input-group input-group-static mb-4">
                         <label>Nomor Whatsapp</label>
-                        <input type="email" class="form-control" placeholder="Nomor Whatsapp">
+                        <input type="text" class="form-control" placeholder="Nomor Whatsapp" name="phone">
                         <span class="input-group-text">
                           <i class="material-icons">call</i>
                         </span>
@@ -620,7 +613,7 @@
                   <div class="form-group mb-4 mt-md-0 mt-4">
                     <div class="input-group input-group-static mb-4">
                       <label>Apa yang bisa kami bantu?</label>
-                      <textarea name="message" class="form-control" id="message" rows="6" placeholder="Deskripsikan pertanyaan anda"></textarea>
+                      <textarea class="form-control" id="message" rows="6" placeholder="Deskripsikan pertanyaan anda" name="pesan"></textarea>
                     </div>
                   </div>
                   <div class="row">
@@ -635,32 +628,70 @@
         </div>
       </div>
     </section>
+  </div>
 
-    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/jquery-min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/jquery-min.js" type="text/javascript"></script>
+  <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
 
-    <script src="./assets/js/plugins/typedjs.js"></script>
+  <!-- <script src="assets/js/plugins/typedjs.js"></script>
 
-    <script src="./assets/js/plugins/countup.min.js"></script>
+  <script src="assets/js/plugins/countup.min.js"></script>
 
-    <script src="./assets/js/plugins/rellax.min.js"></script>
+  <script src="assets/js/plugins/rellax.min.js"></script>
 
-    <script src="./assets/js/plugins/tilt.min.js"></script>
+  <script src="assets/js/plugins/tilt.min.js"></script>
 
-    <script src="./assets/js/plugins/choices.min.js"></script>
+  <script src="assets/js/plugins/choices.min.js"></script>
 
-    <script src="./assets/js/plugins/parallax.min.js"></script>
+  <script src="assets/js/plugins/parallax.min.js"></script> -->
 
-    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 
-    <script src="./assets/js/plugins/anime.min.js" type="text/javascript"></script>
+  <script src="assets/js/plugins/anime.min.js" type="text/javascript"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
 
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="./assets/js/material-kit-pro.min.js?v=3.0.2" type="text/javascript"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="assets/js/material-kit-pro.min.js?v=3.0.2" type="text/javascript"></script>
+  <script src="../js/sweetalert.min.js"></script>
+
+  <script type="text/javascript">
+    $("#wa").submit(function (e) {
+      e.preventDefault(); // stops the default action
+      //$("#loader").show(); // shows the loading screen
+      Swal.fire({
+        title: "Mengirim Formulir...",
+        text: "Harap bersabar ini ujian",
+        imageUrl: "../images/Ellipsis-1s-200px.gif",
+        showConfirmButton: false,
+        allowOutsideClick: false
+      });
+      $.ajax({
+        url: '../simpan.php',
+        data:$(this).serialize(),
+        type: "POST",
+        success: function (returnhtml) {
+          const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+              confirmButton: 'btn btn-primary',
+              cancelButton: 'btn btn-danger'
+            },
+            buttonsStyling: false
+          })
+
+          swalWithBootstrapButtons.fire({
+            title: 'Pesan anda telah terkirim. Mohon tunggu respon dari kami.',
+            icon: 'success',
+            showCancelButton: false,
+            confirmButtonText: '<a href="https://tahurarsoerjo.dishut.jatimprov.go.id" style="color:white"> OK </a>',
+            reverseButtons: true
+          })
+        }
+      });
+    });
+  </script>
 
   </body>
 
