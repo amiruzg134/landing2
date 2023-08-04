@@ -55,38 +55,6 @@
     </div>
   </div>
 
-  <!-- <header>
-    <div class="page-header min-vh-85">
-      <div>
-        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="assets/img/banner.jpg" alt="image" loading="lazy">
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 d-flex">
-            <div class="card card-body blur text-md-start text-center px-sm-5 shadow-lg mt-sm-5 py-sm-5">
-              <h2 class="text-dark mb-4">ZONA INTEGRITAS</h2>
-              <p class=" text-dark me-md-5">Pembangunan Zona Integritas Tahura Raden Soerjo merupakan bentuk komitmen untuk melakukan Reformasi Birokrasi melalui serangkaian pengelolaan manajamen perubahan, perbaikan tata laksana, penataan sistem manajemen sdm, penguatan akuntabilitas dan penguatan pengawasan, serta peningkatan kualitas pelayanan publik guna mewujudkan organisasi yang memiliki kinerja yang baik dalam pengelolaan kawasan konservasi dan memberikan pelayanan publik yang berkualitas serta bebas dari korupsi. </p>
-              <div class="row mt-2">
-                <div class="col-md-2 col-3 p-0">
-                  <img class="w-100" src="assets/img/pin.png" alt="logo">
-                </div>
-                <div class="col-md-2 col-3 p-0">
-                  <img class="w-100" src="assets/img/berani.png" alt="logo">
-                </div>
-                <div class="col-md-2 col-3 p-0">
-                  <img class="w-100" src="assets/img/nokorupsi.png" alt="logo">
-                </div>
-                <div class="col-md-2 col-3 p-0">
-                  <img class="w-100" src="assets/img/nosuap.png" alt="logo">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header> -->
-
   <!-- BANNER -->
   <section class="py-5">
     <div class="container">

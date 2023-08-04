@@ -180,8 +180,8 @@
                                 </div><!-- /.col-lg-6 -->
                                 <div class="col-lg-12">
                                     <div class="cta-one__image">
-                                        <img src="images/bannerziwebpsg.jpg"/>
-                                        <img src="images/bannerzi.jpg" style="margin-top: 20px">
+                                        <!-- <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerziwebpsg.jpg"/></a>
+                                        <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerzi.jpg" style="margin-top: 20px"></a> -->
                                     </div><!-- /.cta-one__image -->
                                 </div><!-- /.col-lg-6 -->
                             </div><!-- /.row no-gutters -->
@@ -834,7 +834,25 @@
               }
             });
           });
+
+        $(window).load(function(){        
+             $('#exampleModalNotification').modal('show');
+          }); 
     </script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerziwebpsg.jpg" style="width: 100%; display: block; margin: 0 auto;"></a>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi" class="btn bg-gradient-dark mb-0" data-bs-dismiss="modal">Pelajari Lebih Lanjut</a>
+            </div>
+          </div>
+        </div>
+    </div>
 
 </body>
 </html>
