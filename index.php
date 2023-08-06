@@ -422,6 +422,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">26 Juli 2023</div>
+                                <a href="#" class="blog-one__author">Informasi</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-41.php">Bukit Cendono, Destinasi Wisata Pendakian Baru di Mojokerto</a></h3>
+                                <p class="blog-one__text">Unit Pelaksana Teknis (UPT) Taman Hutan Raya (Tahura) Raden Soerjo kembali membuka destinasi wisata alam baru. Kali ini, Tahura...</p>
+                                <a href="berita/berita-41.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">18 April 2023</div>
                                 <a href="#" class="blog-one__author">Informasi</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-40.php">CATAT! PENDAKIAN GUNUNG ARJUNO WELIRANG TUTUP MULAI H-2 IDUL FITRI 1444 H</a></h3>
@@ -438,17 +449,6 @@
                                 <h3 class="blog-one__title"><a href="berita/berita-39.php">PERINGATAN HARI DESA ASRI NUSANTARA DI OBJEK WISATA ALAM CLAKET</a></h3>
                                 <p class="blog-one__text">Dalam rangka memperingati Hari Desa Asri Nusantara Tahun 2023, pada tanggal 15 Maret 2023 UPT Tahura Raden Soerjo turut serta dalam </p>
                                 <a href="berita/berita-39.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">21 Desember 2022</div>
-                                <a href="#" class="blog-one__author">Informasi</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-38.php">SI CANTIK GASTRODIA BAMBU, ANGGREK HANTU DI TAHURA RADEN SOERJO</a></h3>
-                                <p class="blog-one__text">Berwarna coklat tua, anggrek cantik ini bunganya berbentuk seperti lonceng dan batangnya berwarna kekuningan,</p>
-                                <a href="berita/berita-38.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -845,10 +845,11 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
             <div class="modal-body">
-              <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerziwebpsg.jpg" style="width: 100%; display: block; margin: 0 auto;"></a>
+              <a href="zi/index.php"><img src="images/bannerziwebpsg.jpg" style="width: 100%; display: block; margin: 0 auto;"></a>
             </div>
-            <div class="modal-footer justify-content-between">
-              <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi" class="btn bg-gradient-dark mb-0" data-bs-dismiss="modal">Pelajari Lebih Lanjut</a>
+            <div class="modal-footer">
+                <a href="https://forms.gle/u5bLZ8usEtW6GDMk7" target="_blank" class="btn btn-primary" style="border-radius: 32px; padding: 8px 30px">Survey Persepsi Anti Korupsi</a>
+                <a href="zi/index.php" class="btn btn-info" style="border-radius: 32px; padding: 8px 30px">Pelajari Lebih Lanjut</a>
             </div>
           </div>
         </div>
