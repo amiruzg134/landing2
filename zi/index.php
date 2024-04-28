@@ -9,8 +9,8 @@
     Zona Integritas | UPT Tahura Raden Soerjo
   </title>
 
-  <meta name="keywords" content="book VIP cangar, air panas cangar, kolam rendam VIP cangar">
-  <meta name="description" content="Pemandian Air Panas Cangar">
+  <meta name="keywords" content="ZI, UPT Tahura Raden Soerjo, Zona Integritas, WBK, WBBM">
+  <meta name="description" content="Zona Integritas UPT Tahura Raden Soerjo">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
 
@@ -55,6 +55,208 @@
     </div>
   </div>
 
+  <!-- SURVEI SPAK -->
+  <section class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
+            <i class="material-icons opacity-10">timeline</i>
+          </div>
+          <h2 class="text-dark mb-0 mt-3">Hasil Survei</h2>
+          <h6 class="text-gradient text-warning">UPT Tahura Raden Soerjo</h6>
+        </div>
+        <div class="col-lg-8 col-md-10 col-12 mx-auto text-center">
+          <div class="nav-wrapper mt-3">
+            <ul class="nav nav-pills nav-fill flex-row p-1" id="tabs-pricing" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link mb-0 active" id="tabs-iconpricing-tab-1" data-bs-toggle="tab" href="#tabs-pricing-tab-1" role="tab" aria-selected="true"> Survei Pengetahuan Anti Korupsi (SPAK) </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mb-0" id="tabs-iconpricing-tab-2" data-bs-toggle="tab" href="#tabs-pricing-tab-2" role="tab" aria-selected="false"> Survei Kepuasan Masyarakat (SKM)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    <div class="tab-content tab-space">
+      <div class="tab-pane active" id="tabs-pricing-tab-1">
+        <div class="col-md-12 mt-3 mx-auto text-center">
+          <div class="card">
+            <div class="card-header">
+              <h5 style="margin-bottom:0">Indeks Persepsi Anti Korupsi (IPAK)</h5>
+              <h6>Tahun 2023 - Q1 2024</h6>
+            </div>
+            <div class="card-body chart">
+              <canvas id="chart-cons-week" class="chart-canvas" height="320"></canvas>
+            </div>
+              <div class="card-body text-justify">
+                <div class="accordion p-3" id="accordionRental">
+                  <div class="accordion-item mb-3">
+                    <h6 class="accordion-header" id="headingFour">
+                      <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Analisis Hasil Survei
+                        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                      </button>
+                    </h6>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRental">
+                      <div class="accordion-body">
+                        <p>
+                          Pada triwlan pertama terdapat 12 pelayanan perizinan namun tidak ada pengisian survei persepsi anti korupsi pada googleform yang disediakan, karena kurangnya sosialisasi kepada petugas perizinan mengenai keharusan dalam pengisian survei oleh penerima pelayanan perizinan.
+                        </p>
+                        <p>
+                          Pada triwulan kedua didapatkan hasil 99,38 dengan kualitas mutu A dan masuk dalam kategori Sangat baik dengan jumlah responden 16 orang. Selanjutnya survei yang dilaksanakan pada triwulan tiga mengalami penurunan hasil IPAK sebagaimana Gambar 1 yaitu sebesar 86,69 dengan 82 responden dan pada triwulan empat sebesar 87 dengan 15 responden.
+                        </p>
+                        <p>
+                          Triwulan tiga dan empat kualitas mutu persepsi anti korupsi B atau masuk kategori “Baik”. Kemungkinan hal tersebut diakibatkan karena terdapat bencana kebakaran pada bulan Agustus s.d Oktober 2023 terjadi bencana kebakaran hutan pada kawasan konservasi Tahura Raden Soerjo sehingga terdapat beberapa kegiatan yang tidak diizinkan sebagai bentuk pengaman.
+                        </p>
+                        <p>
+                          Hasil survei pada tahun 2023 direkap dengan Rerata per triwulan sebesar 91,09 dengan kualitas mutu A atau “ Sangat Baik”.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <h6 class="accordion-header" id="headingSix">
+                      <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Disclaimer
+                        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                      </button>
+                    </h6>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionRental">
+                      <div class="accordion-body">
+                        <p>
+                          Sebagaimana pada data triwulan 3 dan 4 skor terendah pada pertanyaan pertama dan kedua diantaranya:
+                          <ol>
+                            <li>
+                              Apakah Saudara pernah mendapati praktik diskriminasi dalam pemberian pelayanan?
+                            </li>
+                            <li>
+                              Apakah Saudara pernah mendapati praktik kecurangan dalam pemberian pelayanan?
+                            </li>
+                          </ol>
+                        </p>
+                        <p>
+                          Hal tersebut kemungkinan disebabkan oleh beberapa aspek diantaranya:
+                          <ol>
+                            <li>
+                              Di Wisata Alam Pemandian Air Panas Cangar pada kolam rendam VIP terdapat antrian offline dan online. Sehingga pengunjung dengan antrian offline beranggapan bahwa yang baru dating dan langsung masuk memiliki relasi dengan petugas dan disimpulkan sebagai bentuk diskriminasi;
+                            </li>
+                            <li>
+                              Sedangkan terkait kecurangan, kemungkinan karena adanya denda ke pendaki jika terlambat waktu kedatangan dari kegiatan pendakian. Misalnya ijin 2 hari namun turun pada hari ketiga. Hal tersebut telah ada di SOP pada web pendakian, namun masih kurangnya minat baca oleh calon pendaki sehingga perlu dilakukan sosialisasi terkait pada saat briefing pendakian.
+                            </li>
+                          </ol>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <h6 class="accordion-header" id="headingFive">
+                      <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Tindak Lanjut Hasil Survei
+                        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                      </button>
+                    </h6>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRental">
+                      <div class="accordion-body">
+                        <p>
+                          Mutu persepsi sudah masuk kedalam golongan A atau sangat baik. Sehingga dapat diartikan bahwa persepsi masyarakat terhadap anti korupsi pada pelayanan yang ada di UPT Tahura Raden Soerjo sangat baik. Selanjutnya perlu dipertahankan prestasi kerja dan ditingkatkan sosialisasi persepsui anti korupsi dengan cara:
+                          <ol>
+                            <li>
+                              Sosialisasi melalui media sosial yang menyatakan bahwa pelayanan di Tahura Raden Soerjo tidak dipungut biaya;
+                            </li>
+                            <li>
+                              Harus disosialisasi kepada penerima layanan antara retribusi masuk kawasan, denda keterlambatan turun dari pendakian dengan pungli merupakan hal yang berbeda;
+                            </li>
+                            <li>
+                              Peningkatan kegiatan pengamanan agar potensi kebakaran hutan akibat dari kegiatan ilegal Masyarakat dapat dicegah.
+                            </li>
+                            <li>
+                              Updating kondisi kawasan melalui media sosial harus terus dilakukan untuk meningkatkan pengetahuan Masyarakat tentang kejadian-kejadian yang terjadi pada kawasan konservasi. Sehingga jika dilakukan penutupan Masyarakat lebih memahami berbagai upaya pengamanan yang harus dilakukan.
+                            </li>
+                          </ol>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tabs-pricing-tab-2">
+        <div class="col-md-12 mt-3 mx-auto text-center">
+          <div class="card">
+            <div class="card-header">
+              <h5 style="margin-bottom:0">Indeks Kepuasan Masyarakat (IKM)</h5>
+              <h6>Tahun 2023 - Q1 2024</h6>
+            </div>
+            <div class="card-body chart">
+              <canvas id="chart-ikm" class="chart-canvas" height="320"></canvas>
+            </div>
+              <div class="card-body text-justify">
+                <div class="accordion p-3" id="accordionRental">
+                  <div class="accordion-item mb-3">
+                    <h6 class="accordion-header" id="headingFour">
+                      <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Analisis Hasil Survei
+                        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                      </button>
+                    </h6>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionRental">
+                      <div class="accordion-body">
+                        <p>
+                          Pada tahun 2023 hasil survey setiap 3 bulan sekali didapati mengalami kenaikan dan penurunan hasil IKM. Hal ini karena perbedaan jumlah responden pada masing-masing periode. Perbedaan jumlah responden merupakan dampak dari penutupan wisata minat khusus yaitu pendakian dan wisata alam Tahura Raden Soerjo yang disebabkan karena kebakaran hutan dan kondisi cuaca ekstrim memasuki musim penghujan. Kemudian juga dilakukan perhitungan nilai IKM selama 1 tahun dan didapatkan nilai sebesar 78.84 sehingga masih masuk dalam kategori “Baik”.
+                        </p>
+                        <p>
+                          Pada awal tahun dan akhir tahun tidak banyak responden karena pada awal tahun masih dilakukan pengenalan kepada wisatawan untuk melakukan survey kepuasan masyarakat melalui kanal e-sukma. Sedangkan pada akhir tahun terdapat penutupan pada wisata minat khusus pendakian akibat bencana kebakaran dan kondisi cuaca ekstrim.
+                        </p>
+                        <p>
+                          Responden didominasi oleh wisatawan dengan rentan usia 17 sampai dengan 30 tahun. Sedangkan kondisi dilapangan cukup banyak wisatawan lansia yang berkunjung di wisata alam Tahura Raden Soerjo. Sehingga dapat dipertimbangkan untuk jemput bola survey kepuasan pelayanan dengan bantuan penyuluh melalui tab atau handphone. Sehingga survey dapat dilakukan secara menyeluruh.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-3">
+                    <h6 class="accordion-header" id="headingFive">
+                      <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Kesimpulan
+                        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                      </button>
+                    </h6>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionRental">
+                      <div class="accordion-body">
+                        <ol>
+                          <li>
+                            Untuk pemerataan survey dapat dilakukan survey jemput bola oleh pemandu ataupun penyuluh melalui sarana tab maupun handphone untuk membantu pengunjung dalam pengisian survey terutama untuk pengunjung lansia.
+                          </li>
+                          <li>
+                            Kampanye wisata bebas sampah harus terus digalakkan.
+                          </li>
+                          <li>
+                            Waktu pendaftaran booking online bisa dipertimbangkan untuk penambahan waktu.
+                          </li>
+                          <li>
+                            Upaya peningkatan sarpras melalui APBD maupun bermitra dengan pihak ke-3
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
   <!-- BANNER -->
   <section class="py-5">
     <div class="container">
@@ -89,7 +291,7 @@
         </div>
       </div>
       <div class="row ">
-        <div class="col-lg-12 mt-3">
+        <div class="col-lg-12 mt-5">
           <div class="card ">
             <div class="full-background">
               <img src="assets/img/zi.jpg" class="w-100">
@@ -125,7 +327,7 @@
             <div class="accordion p-3" id="accordionRental">
               <div class="accordion-item mb-3">
                 <h6 class="accordion-header" id="headingOne">
-                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button border-bottom font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Hasil Konkrit Pembangunan ZI
                     <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
                     <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
@@ -134,7 +336,7 @@
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionRental">
                   <div class="accordion-body">
                     <p>
-                      Taman Hutan Raya (TAHURA) R. Soerjo kaya akan optensi sumber daya alam, seperti flora fauna, keindahan alam, panas bumi dan sumber air yang telah dimanfaatkan oleh ± 40.000 KK dan dunia usaha. Pengelolaan TAHURA R. Soerjo oleh UPT Tahura R. Soerjo Dinas Kehutanan untuk menjamin kelatariannya sebagai kawasan pelestarian alam yang menyangkut hajat hidup masyarakat dalam hal penyediaan air bersih. Sedangkan potensi keindahan alamm telah dikelola sebagai objek wisata alam memberikan PAD Provinsi Jawa Timur sebesar 3,7 Milyar. Selain itu UPT TAHURA R. Soerjo juga menyelenggarakan perizinan untuk berbagai kegiatan di dalam kawasan TAHURA R. Soerjo, sperti kegiatan penelitian, pemanfaatan sumber air, kegiatan pengamatan satwa dan kegiatan-kegiatan lainnya yang dilakukan oleh masyarakat dalam kawasan TAHURA.
+                      Taman Hutan Raya (TAHURA) R. Soerjo kaya akan potensi sumber daya alam, seperti flora fauna, keindahan alam, panas bumi dan sumber air yang telah dimanfaatkan oleh ± 40.000 KK dan dunia usaha. Pengelolaan TAHURA R. Soerjo oleh UPT Tahura R. Soerjo Dinas Kehutanan untuk menjamin kelatariannya sebagai kawasan pelestarian alam yang menyangkut hajat hidup masyarakat dalam hal penyediaan air bersih. Sedangkan potensi keindahan alamm telah dikelola sebagai objek wisata alam memberikan PAD Provinsi Jawa Timur sebesar 3,7 Milyar. Selain itu UPT TAHURA R. Soerjo juga menyelenggarakan perizinan untuk berbagai kegiatan di dalam kawasan TAHURA R. Soerjo, sperti kegiatan penelitian, pemanfaatan sumber air, kegiatan pengamatan satwa dan kegiatan-kegiatan lainnya yang dilakukan oleh masyarakat dalam kawasan TAHURA.
                     </p>
                     <p>
                       Pembangunan ZI di UPT TAHURA R. Soerjo sebagai bentuk reformasi birokrasi sehingga untuk mengembangkan budaya kerja birokrasi yang berkinerja tinggi untuk meningkatkan efektifitas pengelolaan kawasan TAHURA R. Soerjo sebagai kawasan pelestarian alam, menyelengarakan wisata alam dan pelayanan perizinan yang berkualitas, dan mencegah terjadinya berbagai potensi penyimpangan dan korupsi dalam pengelolaan kawasan TAHURA R.Soerjo dalam rangka mempertahankan dan mengembangkan kelestarian sumber daya alam hayati beserta ekosistemnya sehingga dapat memberikan dukungan terhadap mutu kehidupan dan kesejahteraan masyarakat.
@@ -604,26 +806,20 @@
   <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
 
   <!-- <script src="assets/js/plugins/typedjs.js"></script>
-
   <script src="assets/js/plugins/countup.min.js"></script>
-
   <script src="assets/js/plugins/rellax.min.js"></script>
-
   <script src="assets/js/plugins/tilt.min.js"></script>
-
   <script src="assets/js/plugins/choices.min.js"></script>
-
   <script src="assets/js/plugins/parallax.min.js"></script> -->
 
   <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-
   <script src="assets/js/plugins/anime.min.js" type="text/javascript"></script>
-
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="assets/js/material-kit-pro.min.js?v=3.0.2" type="text/javascript"></script>
   <script src="../js/sweetalert.min.js"></script>
+  <script src="assets/js/plugins/chartjs.min.js"></script>  
 
   <script type="text/javascript">
     $("#wa").submit(function (e) {
@@ -658,6 +854,82 @@
           })
         }
       });
+    });
+
+    var ctx = document.getElementById("chart-cons-week").getContext("2d");
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: ["Q1 - 2023", "Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
+        datasets: [
+          {
+            label: 'IPAK',
+            tension: 0.1,
+            borderRadius: 4,
+            borderSkipped: false,
+            backgroundColor: "#2E86C1",
+            borderColor : "#03A9F4",
+            data: [0, 99.38, 86.89, 87, 93.5],
+            maxBarThickness: 6
+          }, 
+          {
+            label: 'Jumlah Responden',
+            tension: 0.1,
+            borderRadius: 4,
+            borderSkipped: false,
+            backgroundColor: "#0E6655",
+            borderColor : "#4CAF50",
+            data: [0, 16, 82, 15, 55],
+            maxBarThickness: 6
+          }
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: true,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+      }
+    });
+
+    var ctx = document.getElementById("chart-ikm").getContext("2d");
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: ["Q1 - 2023", "Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
+        datasets: [
+          {
+            label: 'IKM',
+            tension: 0.1,
+            borderRadius: 4,
+            borderSkipped: false,
+            backgroundColor: "#2E86C1",
+            borderColor : "#03A9F4",
+            data: [0, 78.89, 78.69, 82.13, 93.44],
+            maxBarThickness: 6
+          }, 
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: true,
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+      }
     });
   </script>
 
