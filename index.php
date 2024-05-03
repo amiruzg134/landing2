@@ -848,12 +848,24 @@
               <a href="zi/index.php"><img src="images/bannerziwebpsg.jpg" style="width: 100%; display: block; margin: 0 auto;"></a>
             </div>
             <div class="modal-footer">
-                <a href="https://forms.gle/u5bLZ8usEtW6GDMk7" target="_blank" class="btn btn-primary" style="border-radius: 32px; padding: 8px 30px">Survey Persepsi Anti Korupsi</a>
-                <a href="zi/index.php" class="btn btn-info" style="border-radius: 32px; padding: 8px 30px">Pelajari Lebih Lanjut</a>
+                <a href="https://forms.gle/u5bLZ8usEtW6GDMk7" target="_blank" class="banner-one__btn" style="padding: 5px 24px; font-size: 14px">Survey Persepsi Anti Korupsi</a>
+                <a href="zi/index.php" class="banner-one__btn" style="padding: 5px 24px; font-size: 14px; background-color:#5dd8d3">Pelajari Lebih Lanjut</a>
             </div>
           </div>
         </div>
     </div>
+    <!-- <div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="images/suratedaran.jpg" style="width: 100%; display: block; margin: 0 auto;">
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="banner-one__btn" style="padding: 8px 30px" data-dismiss="modal">Tutup</a>
+            </div>
+          </div>
+        </div>
+    </div> -->
 
 </body>
 </html>
