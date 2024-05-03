@@ -37,7 +37,7 @@
         </div>  -->
 
         <!-- Header -->
-    	<header class="site-header header-one">
+        <header class="site-header header-one">
             <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,8 +72,6 @@
                                 <a href="#">Layanan</a>
                                 <ul class="sub-menu">
                                     <li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id/sipenerang" target="_blank">Booking Pendakian Arjuno-Welirang & Pundak</a></li>
-                                    <li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id/bookvipcangar" target="_blank">Booking Kolam Rendam VIP Cangar</a></li>
-                                    <!-- <li><a href="https://tahurarsoerjo.dishut.jatimprov.go.id/karcis" target="_blank">Booking Karcis Objek Wisata Alam</a></li> -->
                                     <li><a href="izinair.html">SOP Izin Pemanfaatan Air</a></li>
                                     <li><a href="wisapik.html">SOP Penyelenggaraan Objek Wisata Alam</a></li>
                                 </ul><!-- /.sub-menu -->
@@ -90,13 +88,13 @@
 
         <!-- Beranda -->
         <section class="banner-one" id="home" style="">
-        	<!-- <img src="images/banner-icon-1-1.png" alt="Awesome Image" class="bubble-1" />
+            <!-- <img src="images/banner-icon-1-1.png" alt="Awesome Image" class="bubble-1" />
             <img src="images/banner-icon-1-3.png" alt="Awesome Image" class="bubble-2" />
             <img src="images/banner-icon-1-2.png" alt="Awesome Image" class="bubble-3" />
             <img src="images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-4" />
             <img src="images/banner-icon-1-5.png" alt="Awesome Image" class="bubble-5" />
             <img src="images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-6" /> -->
-        	<img src="images/banner-moc-1.png" class="banner-one__moc" alt="Awesome Image" />
+            <img src="images/banner-moc-1.png" class="banner-one__moc" alt="Awesome Image" />
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -141,12 +139,9 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
+                    </div><div class="col-md-4 col-sm-4">
                         <a href="#services">
-                            <div class="single-service">
-                                <div class="service-icon">
-                                    <span class="far fa-image fa-2x"></span>
+                            <div class="single-service"><div class="service-icon"><span class="far fa-image fa-2x"></span>
                                 </div>
                                 <div class="service-content">
                                     <h2>Wisata</h2>
@@ -178,10 +173,9 @@
                                         <img src="images/cta-moc-1-3.jpeg" alt="Awesome Image" />
                                     </div><!-- /.cta-one__image -->
                                 </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mt-3">
                                     <div class="cta-one__image">
-                                        <!-- <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerziwebpsg.jpg"/></a>
-                                        <a href="https://tahurarsoerjo.dishut.jatimprov.go.id/zi"><img src="images/bannerzi.jpg" style="margin-top: 20px"></a> -->
+                                        <img src="images/maklumat.jpg">
                                     </div><!-- /.cta-one__image -->
                                 </div><!-- /.col-lg-6 -->
                             </div><!-- /.row no-gutters -->
@@ -199,6 +193,11 @@
                             </p>
                         </div><!-- /.cta-one__content -->
                     </div><!-- /.col-lg-6 -->
+                    <!-- <div class="col-lg-12 d-flex">
+                        <div class="cta-one__content my-auto">
+                            <img src="images/maklumat.jpg">
+                        </div>
+                    </div> -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section>
@@ -276,9 +275,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/cangar.php?via=cangar">
-                                    <span><img src="images/gallery/img-10.jpg"></span>
-                                </a>
+                                <a href="sub/owa/cangar.php?via=cangar"><span><img src="images/gallery/img-10.jpg"></span></a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Pemandian Air Panas Cangar</h5>
@@ -422,6 +419,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">31 Oktober 2023</div>
+                                <a href="#" class="blog-one__author">Informasi</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-42.php">Pemandian Air Panas Cangar Sabet penghargaan di East Java Tourism Award 2023</a></h3>
+                                <p class="blog-one__text">Pemerintah Provinsi Jawa Timur menggelar acara tahunan yaitu East Java Tourism Award 2023. Acara ini...</p>
+                                <a href="berita/berita-42.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">26 Juli 2023</div>
                                 <a href="#" class="blog-one__author">Informasi</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-41.php">Bukit Cendono, Destinasi Wisata Pendakian Baru di Mojokerto</a></h3>
@@ -438,17 +446,6 @@
                                 <h3 class="blog-one__title"><a href="berita/berita-40.php">CATAT! PENDAKIAN GUNUNG ARJUNO WELIRANG TUTUP MULAI H-2 IDUL FITRI 1444 H</a></h3>
                                 <p class="blog-one__text">Dengan adanya pengumuman ini, para pendaki yang ingin menjelajah ke Gunung Arjuno Welirang pun diharap bersabar. </p>
                                 <a href="berita/berita-40.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">16 Maret 2023</div>
-                                <a href="#" class="blog-one__author">Informasi</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-39.php">PERINGATAN HARI DESA ASRI NUSANTARA DI OBJEK WISATA ALAM CLAKET</a></h3>
-                                <p class="blog-one__text">Dalam rangka memperingati Hari Desa Asri Nusantara Tahun 2023, pada tanggal 15 Maret 2023 UPT Tahura Raden Soerjo turut serta dalam </p>
-                                <a href="berita/berita-39.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -539,8 +536,7 @@
                             <img src="images/listing/img-19.png" alt="" />
                             <a href="sub/tretes.php?via=tretes">
                                 <div class="team-overlay text-center">
-                                    <h6>VIA TRETES</h6>
-                                </div>
+                                    <h6>VIA TRETES</h6></div>
                             </a>
                         </div>
                     </div>
@@ -552,8 +548,7 @@
                                     <h6>VIA TAMBAKSARI</h6>
                                 </div>
                             </a>
-                        </div>
-                    </div>
+                        </div></div>
                     <div class="col-md-3 col-sm-6">
                         <div class="team-single">
                             <img src="images/listing/img-21.jpg" alt="" />
@@ -671,7 +666,7 @@
         <footer class="site-footer" id="kontak">
             <div class="site-footer__subscribe">
                 <div class="container">
-                    <div class="block-title text-center">
+                    <div class="block-titletext-center">
                         <div class="block-title__text"><span>Layanan Pengaduan</span></div>
                     </div>
                     <form id="wa" method="post" class="reply-form">
@@ -682,9 +677,7 @@
                             <div class="col-lg-6">
                                 <input type="text" placeholder="Nomor Whatsapp" class="reply-form__field" name="phone" required>
                             </div>
-                            <div class="col-lg-12">
-                                <textarea placeholder="Pesan" class="reply-form__field" name="pesan" required></textarea>
-                            </div>
+                            <div class="col-lg-12"><textarea placeholder="Pesan" class="reply-form__field" name="pesan" required></textarea></div>
                             <div class="col-lg-12">
                                 <button class="reply-form__btn" type="submit">Kirim Pesan</button>
                             </div>
@@ -830,14 +823,13 @@
                   showCancelButton: false,
                   confirmButtonText: '<a href="https://tahurarsoerjo.dishut.jatimprov.go.id" style="color:white"> OK </a>',
                   reverseButtons: true
-                })
-              }
+                })}
             });
           });
 
         $(window).load(function(){        
-             $('#exampleModalNotification').modal('show');
-          }); 
+            $('#exampleModalNotification').modal('show');
+        }); 
     </script>
 
     <!-- Modal -->
@@ -854,6 +846,7 @@
           </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- <div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
@@ -866,6 +859,20 @@
           </div>
         </div>
     </div> -->
+=======
+    
+    <!--<div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+    <!--    <div class="modal-dialog modal-dialog-centered modal-lg">-->
+    <!--      <div class="modal-content">-->
+    <!--        <div class="modal-body">-->
+    <!--          <img src="images/suratedaran.jpg" style="width: 100%; display: block; margin: 0 auto;">-->
+    <!--        </div>-->
+    <!--        <div class="modal-footer">-->
+    <!--            <a href="#" class="banner-one__btn" style="padding: 8px 30px" data-dismiss="modal">Tutup</a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+>>>>>>> f961c25ec20b0b57163ac1c67a39baa465df3749
 
-</body>
 </html>
