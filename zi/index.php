@@ -860,7 +860,7 @@
     new Chart(ctx, {
       type: "line",
       data: {
-        labels: ["Q1 - 2023", "Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
+        labels: ["Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
         datasets: [
           {
             label: 'IPAK',
@@ -869,7 +869,7 @@
             borderSkipped: false,
             backgroundColor: "#2E86C1",
             borderColor : "#03A9F4",
-            data: [0, 99.38, 86.89, 87, 93.5],
+            data: [99.38, 86.89, 87, 93.5],
             maxBarThickness: 6
           }, 
           {
@@ -879,7 +879,7 @@
             borderSkipped: false,
             backgroundColor: "#0E6655",
             borderColor : "#4CAF50",
-            data: [0, 16, 82, 15, 55],
+            data: [16, 82, 15, 55],
             maxBarThickness: 6
           }
         ],
@@ -903,7 +903,7 @@
     new Chart(ctx, {
       type: "line",
       data: {
-        labels: ["Q1 - 2023", "Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
+        labels: ["Q2 - 2023", "Q3 - 2023", "Q4 - 2023", "Q1 - 2024"],
         datasets: [
           {
             label: 'IKM',
@@ -912,7 +912,7 @@
             borderSkipped: false,
             backgroundColor: "#2E86C1",
             borderColor : "#03A9F4",
-            data: [0, 78.89, 78.69, 82.13, 93.44],
+            data: [78.89, 78.69, 82.13, 93.44],
             maxBarThickness: 6
           }, 
         ],
