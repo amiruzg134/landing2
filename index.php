@@ -846,7 +846,7 @@
           </div>
         </div>
     </div>
-<<<<<<< HEAD
+
     <!-- <div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
@@ -859,7 +859,6 @@
           </div>
         </div>
     </div> -->
-=======
     
     <!--<div class="modal fade" id="exampleModalNotification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
     <!--    <div class="modal-dialog modal-dialog-centered modal-lg">-->
@@ -873,6 +872,5 @@
     <!--      </div>-->
     <!--    </div>-->
     <!--</div>-->
->>>>>>> f961c25ec20b0b57163ac1c67a39baa465df3749
 
 </html>
