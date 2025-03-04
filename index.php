@@ -234,78 +234,121 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/arjuno.php?via=arjuno">
+                                <a href="sub/owa/cangar.php">
+                                    <span><img src="images/gallery/img-10.jpg"></span>
+                                </a>
+                            </div>
+                            <div class="awesome-feature-details">
+                                <h5>Pemandian Air Panas Cangar</h5>
+                                <p>Sumberbrantas, Kota Batu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="awesome-feature text-center">
+                            <div class="awesome-feature-icon">
+                                <a href="sub/owa/arjuno.php">
                                     <span><img src="images/gallery/img-18.jpeg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Gunung Arjuno-Welirang</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Pos pendakian via Sumberbrantas, Lawang, Tambaksari, Tretes</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/pundak.php?via=pundak">
+                                <a href="sub/owa/lincing.php">
+                                    <span><img src="images/owa/lincing/images.jpg"></span>
+                                </a>
+                            </div>
+                            <div class="awesome-feature-details">
+                                <h5>Bukit Lincing</h5>
+                                <p>Pos pendakian via Lawang</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="awesome-feature text-center">
+                            <div class="awesome-feature-icon">
+                                <a href="sub/owa/pundak.php">
                                     <span><img src="images/gallery/img-19.jpeg"></span> 
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Gunung Pundak</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Pacet, Kab. Mojokerto</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/jengger.php?via=jengger">
+                                <a href="sub/owa/jengger.php">
                                     <span><img src="images/gallery/img-20.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
-                                <h5>Puncak Watu Jengger</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <h5>Bukit Watu Jengger</h5>
+                                <p>Jatirejo, Kab. Mojokerto</p>
                             </div>
                         </div>
                     </div>
-                </div><!-- /.row -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="awesome-feature text-center">
+                            <div class="awesome-feature-icon">
+                                <a href="sub/owa/cendono.php">
+                                    <span><img src="images/owa/cendono/images.jpg"></span>
+                                </a>
+                            </div>
+                            <div class="awesome-feature-details">
+                                <h5>Bukit Cendono</h5>
+                                <p>Pacet, Kab. Mojokerto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/cangar.php?via=cangar"><span><img src="images/gallery/img-10.jpg"></span></a>
+                                <a href="sub/owa/semar.php">
+                                    <span><img src="images/owa/semar/images.jpg"></span>
+                                </a>
                             </div>
                             <div class="awesome-feature-details">
-                                <h5>Pemandian Air Panas Cangar</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <h5>Bukit Semar</h5>
+                                <p>Gondang, Kab. Mojokerto</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/lws.php?via=lws">
+                                <a href="sub/owa/lws.php">
                                     <span><img src="images/gallery/img-11.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Loka Wiyata Surya</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Pacet, Kab. Mojokerto</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/wpps.php?via=wpps">
+                                <a href="sub/owa/wpps.php">
                                     <span><img src="images/gallery/img-15.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Wisata Panorama Petung Sewu</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Jalur Pacet-Cangar</p>
                             </div>
                         </div>
                     </div>
@@ -314,39 +357,39 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/tretes.php?via=airTretes">
+                                <a href="sub/owa/tretes.php">
                                     <span><img src="images/gallery/img-12.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Air Terjun Tretes</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Wonosalam, Kab. Jombang</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/lumpang.php?via=lumpang">
+                                <a href="sub/owa/lumpang.php">
                                     <span><img src="images/gallery/img-13.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Air Terjun Watu Lumpang</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Jalur Pacet-Cangar</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="awesome-feature text-center">
                             <div class="awesome-feature-icon">
-                                <a href="sub/owa/ondo.php?via=ondo">
+                                <a href="sub/owa/ondo.php">
                                     <span><img src="images/gallery/img-14.jpg"></span>
                                 </a>
                             </div>
                             <div class="awesome-feature-details">
                                 <h5>Air Terjun Watu Ondo</h5>
-                                <p>Gunung Arjuno Welirang merupakan salah satu gunung tertinggi di pulau jawa.</p>
+                                <p>Jalur Pacet-Cangar</p>
                             </div>
                         </div>
                     </div>
@@ -362,33 +405,33 @@
             <img src="images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-4" />
             <div class="container">
                 <div class="block-title text-center">
-                    <div class="block-title__text"><span>Statistik Tahun 2019</span></div><!-- /.block-title__text -->
+                    <div class="block-title__text"><span>Statistik Tahun 2025</span></div><!-- /.block-title__text -->
                 </div><!-- /.block-title -->
                 <div class="fun-fact-one__box-wrapper">
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                27,868.3
+                                434,133,800
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
-                                Luas Area HA
+                                Pendapatan Asli Daerah
                             </p><!-- /.fun-fact-one__text -->
                         </div><!-- /.inner-block -->
                     </div><!-- /.fun-fact-one__single -->
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                294,471
+                                16,141
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
-                                Pengunjung
+                                Pengunjung Wisata Alam
                             </p><!-- /.fun-fact-one__text -->
                         </div><!-- /.inner-block -->
                     </div><!-- /.fun-fact-one__single -->
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                98
+                                10
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Event
@@ -398,7 +441,7 @@
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                8973
+                                0
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Bibit Ditanam
@@ -419,6 +462,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">25 Februari 2025</div>
+                                <a href="#" class="blog-one__author">Informasi</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-43.php">Tahura Raden Soerjo : Tempat Penting Bagi Burung Migran Di Jalur Perlintasan Asia</a></h3>
+                                <p class="blog-one__text">Tahura Raden Soerjo merupakan salah satu kawasan konservasi yang berperan penting sebagai tempat ...</p>
+                                <a href="berita/berita-43.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">31 Oktober 2023</div>
                                 <a href="#" class="blog-one__author">Informasi</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-42.php">Pemandian Air Panas Cangar Sabet penghargaan di East Java Tourism Award 2023</a></h3>
@@ -435,17 +489,6 @@
                                 <h3 class="blog-one__title"><a href="berita/berita-41.php">Bukit Cendono, Destinasi Wisata Pendakian Baru di Mojokerto</a></h3>
                                 <p class="blog-one__text">Unit Pelaksana Teknis (UPT) Taman Hutan Raya (Tahura) Raden Soerjo kembali membuka destinasi wisata alam baru. Kali ini, Tahura...</p>
                                 <a href="berita/berita-41.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">18 April 2023</div>
-                                <a href="#" class="blog-one__author">Informasi</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-40.php">CATAT! PENDAKIAN GUNUNG ARJUNO WELIRANG TUTUP MULAI H-2 IDUL FITRI 1444 H</a></h3>
-                                <p class="blog-one__text">Dengan adanya pengumuman ini, para pendaki yang ingin menjelajah ke Gunung Arjuno Welirang pun diharap bersabar. </p>
-                                <a href="berita/berita-40.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
                             </div>
                         </div>
                     </div>

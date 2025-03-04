@@ -1,7 +1,3 @@
-<?php
-    include '../config.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +44,7 @@
 				<div class="container-fluid">
 					<!-- logo -->
 					<div class="logo">
-						<a href="../index.html">
+						<a href="../index.php">
 							<img class="normal" src="../images/logos/logos.svg" alt="Entrada">
 							<img class="gray-logo" src="../images/logos/logos-gray.svg" alt="Entrada">
 						</a>
@@ -68,7 +64,7 @@
 							<!-- main navbar -->
 							<ul class="nav navbar-nav">
 								<li class="dropdown">
-									<a href="../index.html">Beranda</a>
+									<a href="../index.php">Beranda</a>
 								</li>
 								<li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pelajari Tahura <b class="icon-angle-down"></b></a>
@@ -109,7 +105,7 @@
 							<div class="holder">
 								<h1 class="small-size">Jalur Pendakian Gunung Arjuno-Welirang</h1>
 								<div class="price">
-									Via <strong>TRETES</strong>
+									via <strong>TRETES</strong>
 								</div>
 								<div class="description">
 									<p>Jalur pendakian gunung Arjuno-Welirang via Tretes merupakan jalur pendakian yang paling banyak diminati oleh para pendaki.</p>
@@ -117,78 +113,18 @@
 								<ul class="reviews-info">
 									<li>
 										<div class="info-left">
-											<strong class="title">Ulasan</strong>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT COUNT(id_nilai) as jumlah FROM rating WHERE via = '$_GET[via]' ")); echo $sql["jumlah"];?> Ulasan</span>
+											<strong class="title">Tingkat Kesulitan</strong>
 										</div>
 										<div class="info-right">
-											<div class="star-rating">
-												<span><span class="icon-star"></span></span>
-												<span><span class="icon-star"></span></span>
-												<span><span class="icon-star"></span></span>
-												<span><span class="icon-star"></span></span>
-												<span class="disable"><span class="icon-star"></span></span>
-											</div>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT ROUND(AVG(nilai), 2) as nilai FROM rating WHERE via = '$_GET[via]' ")); echo $sql["nilai"];?> / 5</span>
+											<span class="value">8.5/10</span>
 										</div>
 									</li>
 									<li>
 										<div class="info-left">
-											<strong class="title">Vacation Style</strong>
-											<span class="value">Adult Group</span>
+											<strong class="title">Minimal Grup</strong>
 										</div>
 										<div class="info-right">
-											<ul class="ico-list">
-												<li>
-													<span class="icon icon-hiking"></span>
-												</li>
-												<li>
-													<span class="icon icon-mount"></span>
-												</li>
-												<li>
-													<span class="icon icon-camping"></span>
-												</li>
-											</ul>
-											<span class="value">Camping Trek</span>
-										</div>
-									</li>
-									<li>
-										<div class="info-left">
-											<strong class="title">Activity Level</strong>
-											<span class="value">Quite Tough</span>
-										</div>
-										<div class="info-right">
-											<ul class="ico-list">
-												<li>
-													<span class="icon icon-level3"></span>
-												</li>
-												<li>
-													<span class="icon icon-level5"></span>
-												</li>
-												<li>
-													<span class="icon icon-level7"></span>
-												</li>
-											</ul>
-											<span class="value">9/10</span>
-										</div>
-									</li>
-									<li>
-										<div class="info-left">
-											<strong class="title">Group Size</strong>
-											<span class="value">Medium Grougs</span>
-										</div>
-										<div class="info-right">
-											<ul class="ico-list">
-												<li>
-													<span class="icon icon-group-small"></span>
-												</li>
-												<li>
-													<span class="icon icon-group-medium"></span>
-												</li>
-												<li>
-													<span class="icon icon-group-large"></span>
-												</li>
-											</ul>
-											<span class="value">8/10</span>
+											<span class="value">3 Orang</span>
 										</div>
 									</li>
 								</ul>
@@ -412,69 +348,6 @@
 							</ul>
 						</div>
 
-						<!-- faq and review tab content -->
-						<div role="tabpanel" class="tab-pane " id="tab04">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="header-box">
-										<span class="rate-left">
-											<strong class="title">Rating</strong>
-											<span class="value"><?php $sql = mysqli_fetch_array(mysqli_query($conn, "SELECT ROUND(AVG(nilai), 2) as nilai FROM rating WHERE via = '$_GET[via]' ")); echo $sql["nilai"];?> / 5</span>
-										</span>
-									</div>
-								</div>
-								<div class="col-md-7" style="margin-bottom: 20px">
-									<div class="comments reviews-body" style="max-height: 600px; overflow: auto;">
-										<div class="tampildata"></div>
-									</div>
-								</div>
-								<div class="col-md-5">
-									<div class="header-box" >
-										<div class="alert alert-success alert-dismissible" id="success" style="display:none;">
-										  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-										</div>
-										<form method="post" class="form-user" action = "" id="form-user">
-											<input type="text" name="via" id="via" hidden value=<?php echo $_GET['via'] ?>>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Nama</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="text" class="form-control" id="namaUlasan" name="namaUlasan" required>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Email</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="email" class="form-control" id="emailUlasan" name="emailUlasan" required>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Ulasan</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<textarea rows="5" class="form-control" id="ulasan" name="ulasan" required></textarea>
-											</div>
-											<div class="col-md-2">
-												<span class="rate-left">
-													<strong class="title">Nilai</strong>
-												</span>
-											</div>
-											<div class="col-md-10" style="margin-bottom: 10px">
-												<input type="text" class="js-range-slider" value="" />
-												<input type="hidden" class="js-input-from form-control" value="0" id="slider" />
-											</div>
-											<a class="btn btn-default tombol-simpan" style="float: right; padding: 10px; margin: 30px 0 0 0" id="simpan"> KIRIM </a>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-
 						<!-- kontak tab content -->
 						<div role="tabpanel" class="tab-pane" id="tab05">
 							<div class="row">
@@ -627,110 +500,6 @@
 	<script src="vendors/magnify/jquery.magnify-mobile.js"></script>
 	<!-- ion slider script -->
 	<script src="vendors/ionRangeSlider/js/ion.rangeSlider.min.js"></script>
-
-	<script>
-        $(document).ready(function() {
-
-        	$('.tampildata').load("tampil.php?via=<?php echo $_GET['via'] ?>");
-        	
-         	$('.zoom').magnify();
-
-         	var $range = $(".js-range-slider"),
-			    $inputFrom = $(".js-input-from"),
-			    $inputTo = $(".js-input-to"),
-			    instance,
-			    min = 0,
-			    max = 1000000,
-			    from = 0,
-			    to = 0;
-
-			$range.ionRangeSlider({
-			    
-			    min: 1,
-			    max: 5,
-			    from: 4,
-			    onStart: updateInputs,
-			    onChange: updateInputs,
-			    step: 0.1,
-			    prettify_enabled: true,
-				force_edges: true,
-				grid: true
-			});
-
-			instance = $range.data("ionRangeSlider");
-
-			function updateInputs (data) {
-			    from = data.from;
-			    to = data.to;
-			    
-			    $inputFrom.prop("value", from);
-			    $inputTo.prop("value", to); 
-			}
-
-			$inputFrom.on("input", function () {
-			    var val = $(this).prop("value");
-			    
-			    // validate
-			    if (val < min) {
-			        val = min;
-			    } else if (val > to) {
-			        val = to;
-			    }
-			    
-			    instance.update({
-			        from: val
-			    });
-			});
-
-			$inputTo.on("input", function () {
-			    var val = $(this).prop("value");
-			    
-			    // validate
-			    if (val < from) {
-			        val = from;
-			    } else if (val > max) {
-			        val = max;
-			    }
-			    
-			    instance.update({
-			        to: val
-			    });
-			});	
-
-
-	        $(".tombol-simpan").click(function(){
-				// var data = $('.form-user').serialize();
-				var nama 	= $('#namaUlasan').val();
-				var email 	= $('#emailUlasan').val();
-				var ulasan 	= $('#ulasan').val();
-				var via 	= $('#via').val();
-				var slider 	= $('#slider').val();
-				if(nama!="" && email!="" && ulasan!="" && via!=""){
-					$.ajax({
-						type: 'POST',
-						url: "save.php",
-						data: {
-							nama: nama,
-							email: email,
-							ulasan: ulasan,
-							via: via,
-							slider: slider				
-						},
-						success: function() {
-							$("#simpan").removeAttr("disabled");
-							$("#form-user").trigger("reset");
-							$("#success").show();
-							$('#success').html('Ulasan telah terkirim');  
-							$('.tampildata').load("tampil.php?via=<?php echo $_GET['via'] ?>");
-						}
-					});
-				}
-				else{
-					alert('Harap isi semua kolom!');
-				}
-			});
-        });
-    </script>
 
 </body>
 </html>

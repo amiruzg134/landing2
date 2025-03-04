@@ -42,7 +42,7 @@
 				<div class="container-fluid">
 					<!-- logo -->
 					<div class="logo">
-						<a href="../../index.html">
+						<a href="../../index.php">
 							<img class="normal" src="../../images/logos/logos.svg" alt="Entrada">
 							<img class="gray-logo" src="../../images/logos/logos-gray.svg" alt="Entrada">
 						</a>
@@ -62,7 +62,7 @@
 							<!-- main navbar -->
 							<ul class="nav navbar-nav">
 								<li class="dropdown">
-									<a href="../../index.html">Beranda</a>
+									<a href="../../index.php">Beranda</a>
 								</li>
 								<li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pelajari Tahura <b class="icon-angle-down"></b></a>
@@ -97,6 +97,11 @@
 										<img src="../../images/owa/owa-cangar/img-02.jpg" alt="image descriprion" height="1104" width="966">
 									</div>
 								</div>
+								<div class="slide">
+									<div class="bg-stretch">
+										<img src="../../images/owa/owa-cangar/Picture4.jpg" alt="image descriprion" height="1104" width="966">
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="height col-md-6 text-col">
@@ -104,18 +109,23 @@
 								<h1 class="small-size">Objek Wisata Alam Air Panas Cangar</h1>
 
 								<div class="description">
-									<p>Pemandian air panas ini merupakan objek wisata unggulan di OWA Cangar. Daya tarik utama berupa air panas alami yang bersumber dari kaki gunung Welirang yang masih aktif, tidak berbau belerang dengan suhu sekitar 35°-45°. Objek wisata ini sangat digemari oleh wisatawan domestik maupun mancanegara karena dipercaya apabila berendam dapat menyembuhkan berbagai penyakit, seperti stroke, penyakit kulit, asma, dll. Landscape objek ini cenderung landai dan pemandangannya sangat indah dan alami karena adanya tutupan berbagai vegetasi khas pegunungan yang rapat sehingga udaranya sangat sejuk. Selain itu, komplek kolam pemandian air panas ini mempunyai taman bermain yang menarik untuk anak-anak.</p>
+									<p>
+										Pemandian Air Panas Cangar berada pada ketinggian 1.600 mdpl sehingga suasananya sangat sejuk dan cocok untuk melepas penat. Sesekali pengunjung juga dapat melihat fauna yang hidup liar yaitu Lutung Jawa dan Kera Ekor Panjang. Sementara kicauan burung akan menemani pengunjung yang tengah berendam menikmati air panas alami. Pemandian Air Panas Cangar berasal dari sumber di kaki gunung Welirang yang masih aktif. Air Panas Cangar tidak berbau belerang dengan suhu sekitar 35° hingga 45° C. Ada beberapa kolam khusus yang disediakan, yaitu kolam untuk wanita yang tertutup, kolam anak, dan kolam berendam VIP.  Suasana kolam semakin sejuk karena dikelilingi pepohonan hijau yang lebat. Di area wisata pemandian Cangar terdapat goa-goa peninggalan penjajah Jepang tahun 1942 hingga 1945. Goa tersebut terdapat di atas kolam air panas dengan kedalaman sekitar 10 meter. Untuk menuju lokasi dibutuhkan waktu sekitar 10 menit dengan berjalan kaki.
+									</p>
 								</div>
 								<ul class="reviews-info">
                                     <li style="width: 100%">
                                     	<div class="info-left" style="width: 100%">
 											<strong class="title">Harga Tiket Masuk</strong>
 											<ul>
-												<li>Wisatawan lokal : Rp. 15.000 / orang <small>( + asuransi Rp. 1.000 )</small></li>
-												<li>Wisatawan mancanegara : Rp. 50.000 / orang <small>( + asuransi Rp. 1.000 )</small></li>
+												<li>Wisatawan WNI : Rp. 20.000 / hari biasa / orang <small>( + asuransi Rp. 1.000 )</small></li>
+												<li>Wisatawan WNI : Rp. 25.000 / peak season / orang <small>( + asuransi Rp. 1.000 )</small></li>
+												<li>Wisatawan WNA : Rp. 50.000 / orang <small>( + asuransi Rp. 1.000 )</small></li>
 												<li>Kolam rendam VIP : Rp. 100.000 / jam </li>
-												<li>Parkir mobil : Rp. 5.000 </li>
-												<li>Parkir motor : Rp. 3.000</li>
+												<li>Parkir sepeda : Rp. 5.000</li>
+												<li>Parkir motor : Rp. 5.000</li>
+												<li>Parkir mobil : Rp. 10.000 </li>
+												<li>Parkir bus : Rp. 50.000 </li>
 											</ul>
 										</div>
                                     </li>
@@ -547,110 +557,6 @@
     <script src="../vendors/magnify/jquery.magnify-mobile.js"></script>
     <!-- ion slider script -->
     <script src="../vendors/ionRangeSlider/js/ion.rangeSlider.min.js"></script>
-
-	<script>
-        $(document).ready(function() {
-
-        	$('.tampildata').load("../tampil.php?via=<?php echo $_GET['via'] ?>");
-        	
-         	$('.zoom').magnify();
-
-         	var $range = $(".js-range-slider"),
-			    $inputFrom = $(".js-input-from"),
-			    $inputTo = $(".js-input-to"),
-			    instance,
-			    min = 0,
-			    max = 1000000,
-			    from = 0,
-			    to = 0;
-
-			$range.ionRangeSlider({
-			    
-			    min: 1,
-			    max: 5,
-			    from: 4,
-			    onStart: updateInputs,
-			    onChange: updateInputs,
-			    step: 0.1,
-			    prettify_enabled: true,
-				force_edges: true,
-				grid: true
-			});
-
-			instance = $range.data("ionRangeSlider");
-
-			function updateInputs (data) {
-			    from = data.from;
-			    to = data.to;
-			    
-			    $inputFrom.prop("value", from);
-			    $inputTo.prop("value", to); 
-			}
-
-			$inputFrom.on("input", function () {
-			    var val = $(this).prop("value");
-			    
-			    // validate
-			    if (val < min) {
-			        val = min;
-			    } else if (val > to) {
-			        val = to;
-			    }
-			    
-			    instance.update({
-			        from: val
-			    });
-			});
-
-			$inputTo.on("input", function () {
-			    var val = $(this).prop("value");
-			    
-			    // validate
-			    if (val < from) {
-			        val = from;
-			    } else if (val > max) {
-			        val = max;
-			    }
-			    
-			    instance.update({
-			        to: val
-			    });
-			});	
-
-
-	        $(".tombol-simpan").click(function(){
-				// var data = $('.form-user').serialize();
-				var nama 	= $('#namaUlasan').val();
-				var email 	= $('#emailUlasan').val();
-				var ulasan 	= $('#ulasan').val();
-				var via 	= $('#via').val();
-				var slider 	= $('#slider').val();
-				if(nama!="" && email!="" && ulasan!="" && via!=""){
-					$.ajax({
-						type: 'POST',
-						url: "../save.php",
-						data: {
-							nama: nama,
-							email: email,
-							ulasan: ulasan,
-							via: via,
-							slider: slider				
-						},
-						success: function() {
-							$("#simpan").removeAttr("disabled");
-							$("#form-user").trigger("reset");
-							$("#success").show();
-							$('#success').html('Ulasan telah terkirim');  
-							$('.tampildata').load("../tampil.php?via=<?php echo $_GET['via'] ?>");
-						}
-					});
-				}
-				else{
-					alert('Harap isi semua kolom!');
-				}
-			});
-        });
-    </script>
 
 </body>
 </html>
