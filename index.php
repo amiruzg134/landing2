@@ -26,16 +26,6 @@
     <div class="preloader"></div><!-- /.preloader -->
     <div class="page-wrapper">
 
-        <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-body" style="padding: 50px; font-size: 12px">
-                <img src="images/lomba.jpg">
-              </div>
-            </div>
-          </div>
-        </div>  -->
-
         <!-- Header -->
         <header class="site-header header-one">
             <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
@@ -88,12 +78,6 @@
 
         <!-- Beranda -->
         <section class="banner-one" id="home" style="">
-            <!-- <img src="images/banner-icon-1-1.png" alt="Awesome Image" class="bubble-1" />
-            <img src="images/banner-icon-1-3.png" alt="Awesome Image" class="bubble-2" />
-            <img src="images/banner-icon-1-2.png" alt="Awesome Image" class="bubble-3" />
-            <img src="images/banner-icon-1-4.png" alt="Awesome Image" class="bubble-4" />
-            <img src="images/banner-icon-1-5.png" alt="Awesome Image" class="bubble-5" />
-            <img src="images/banner-icon-1-6.png" alt="Awesome Image" class="bubble-6" /> -->
             <img src="images/banner-moc-1.png" class="banner-one__moc" alt="Awesome Image" />
             <div class="container">
                 <div class="row">
@@ -411,7 +395,7 @@
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                434,133,800
+                               690,688,800
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Pendapatan Asli Daerah
@@ -421,7 +405,7 @@
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                16,141
+                                25,704
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Pengunjung Wisata Alam
@@ -431,7 +415,7 @@
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                10
+                                21
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Event
@@ -441,7 +425,7 @@
                     <div class="fun-fact-one__single">
                         <div class="inner-block">
                             <h3 class="fun-fact-one__title counter">
-                                0
+                                1,295
                             </h3><!-- /.fun-fact-one__title -->
                             <p class="fun-fact-one__text">
                                 Bibit Ditanam
@@ -462,6 +446,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">14 Maret 2025</div>
+                                <a href="#" class="blog-one__author">Berita</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-47.php">Bimbingan Teknis Pertolongan Pertama pada Kecelakaan (P3K) untuk Petugas Pos Pendakian dan Wisata Tahura Raden Soerjo</a></h3>
+                                <p class="blog-one__text">Kawasan Tahura Raden Soerjo merupakan kawasan konservasi yang dikelola ...</p>
+                                <a href="berita/berita-47.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">25 Februari 2025</div>
                                 <a href="#" class="blog-one__author">Informasi</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-43.php">Tahura Raden Soerjo : Tempat Penting Bagi Burung Migran Di Jalur Perlintasan Asia</a></h3>
@@ -473,22 +468,11 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">31 Oktober 2023</div>
-                                <a href="#" class="blog-one__author">Informasi</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-42.php">Pemandian Air Panas Cangar Sabet penghargaan di East Java Tourism Award 2023</a></h3>
-                                <p class="blog-one__text">Pemerintah Provinsi Jawa Timur menggelar acara tahunan yaitu East Java Tourism Award 2023. Acara ini...</p>
-                                <a href="berita/berita-42.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">26 Juli 2023</div>
-                                <a href="#" class="blog-one__author">Informasi</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-41.php">Bukit Cendono, Destinasi Wisata Pendakian Baru di Mojokerto</a></h3>
-                                <p class="blog-one__text">Unit Pelaksana Teknis (UPT) Taman Hutan Raya (Tahura) Raden Soerjo kembali membuka destinasi wisata alam baru. Kali ini, Tahura...</p>
-                                <a href="berita/berita-41.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                                <div class="blog-one__date">23 Februari 2025</div>
+                                <a href="#" class="blog-one__author">Berita</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-46.php">Sapa Masyarakat Konservasi Dinas Kehutanan Provinsi Jawa Timur dan Alumni 86 SMAN 1 Sragen</a></h3>
+                                <p class="blog-one__text">Penyelenggaraan kegiatan ini untuk mendukung kegiatan promosi wisata alam di kawasan konservasi Taman ...</p>
+                                <a href="berita/berita-46.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -496,76 +480,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Galeri -->
-        <!-- <section class="pricing-one" id="pricing" style="padding-top: 150px">
-            <div class="container trip-detail">
-                <div class="block-title text-center">
-                    <div class="block-title__text"><span>Galeri</span></div>
-                </div>
-                <div class="row tab-container">
-                    <div role="tabpanel" class="tab-pane" id="tab05">
-                        <ul class="row gallery-list has-center">
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a data-fancybox href="https://www.youtube.com/watch?v=jn1C3ZkRDEE">
-                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/jn1C3ZkRDEE/hqdefault.jpg" />
-                                    <div class="play-button"></div>
-                                </a>
-                            </li>
-
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a data-fancybox href="https://www.youtube.com/watch?v=34NOr_OnYkY">
-                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/34NOr_OnYkY/hqdefault.jpg" />
-                                    <div class="play-button"></div>
-                                </a>
-                            </li>
-                            
-                            <li class="col-sm-6 col-md-6 col-6 ">
-                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" data-fancybox="images">
-                                    <span class="img-holder">
-                                        <img src="images/gallery/Leaflet Air Terjun Tretes_Page_1.jpg" alt="image description">
-                                    </span>
-                                    <span class="caption">
-                                        <span class="centered">
-                                            <strong class="title">LEAFLET_1</strong>
-                                            <span class="sub-text">Air Terjun Tretes</span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a class="fancybox" data-fancybox-group="group" href="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" data-fancybox="images">
-                                    <span class="img-holder">
-                                        <img src="images/gallery/Leaflet Air Terjun Tretes_Page_2.jpg" alt="image description">
-                                    </span>
-                                    <span class="caption">
-                                        <span class="centered">
-                                            <strong class="title">LEAFLET_2</strong>
-                                            <span class="sub-text">Air Terjun Tretes</span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a data-fancybox href="https://www.youtube.com/watch?v=ekO_IyI70DA">
-                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/ekO_IyI70DA/hqdefault.jpg" />
-                                    <div class="play-button"></div>
-                                </a>
-                            </li>
-                            
-                            <li class="col-sm-6 col-md-6 col-6">
-                                <a data-fancybox href="https://www.youtube.com/watch?v=8VHcPKwf-t0">
-                                    <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/8VHcPKwf-t0/hqdefault.jpg" />
-                                    <div class="play-button"></div>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <a href="sub/gallery-all.html" class="banner-one__btn" style="display: table; margin: 0 auto">Tampilkan Semua</a>
-                </div>
-            </div>
-        </section> -->
 
         <!-- Jalur Pendakian -->
         <section class="pricing-one" style="padding: 250px 0 100px 0">
