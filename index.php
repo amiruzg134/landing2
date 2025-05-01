@@ -446,6 +446,17 @@
                     <div class="col-lg-4">
                         <div class="blog-one__single">
                             <div class="blog-one__single-inner-block">
+                                <div class="blog-one__date">14 April 2025</div>
+                                <a href="#" class="blog-one__author">Berita</a>
+                                <h3 class="blog-one__title"><a href="berita/berita-48.php">Tahura Raden Soerjo Menjadi Kunci Keberlanjutan Hidrologi di Jawa Timur.</a></h3>
+                                <p class="blog-one__text">Kawasan Taman Hutan Raya (Tahura) R. Soerjo merupakan salah satu kawasan konservasi penting di Jawa Timur yang memiliki peran strategis...</p>
+                                <a href="berita/berita-48.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-inner-block">
                                 <div class="blog-one__date">14 Maret 2025</div>
                                 <a href="#" class="blog-one__author">Berita</a>
                                 <h3 class="blog-one__title"><a href="berita/berita-47.php">Bimbingan Teknis Pertolongan Pertama pada Kecelakaan (P3K) untuk Petugas Pos Pendakian dan Wisata Tahura Raden Soerjo</a></h3>
@@ -462,17 +473,6 @@
                                 <h3 class="blog-one__title"><a href="berita/berita-43.php">Tahura Raden Soerjo : Tempat Penting Bagi Burung Migran Di Jalur Perlintasan Asia</a></h3>
                                 <p class="blog-one__text">Tahura Raden Soerjo merupakan salah satu kawasan konservasi yang berperan penting sebagai tempat ...</p>
                                 <a href="berita/berita-43.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-one__single">
-                            <div class="blog-one__single-inner-block">
-                                <div class="blog-one__date">23 Februari 2025</div>
-                                <a href="#" class="blog-one__author">Berita</a>
-                                <h3 class="blog-one__title"><a href="berita/berita-46.php">Sapa Masyarakat Konservasi Dinas Kehutanan Provinsi Jawa Timur dan Alumni 86 SMAN 1 Sragen</a></h3>
-                                <p class="blog-one__text">Penyelenggaraan kegiatan ini untuk mendukung kegiatan promosi wisata alam di kawasan konservasi Taman ...</p>
-                                <a href="berita/berita-46.php" class="blog-one__link"><i class="nonid-icon-left-arrow"></i></a>
                             </div>
                         </div>
                     </div>
